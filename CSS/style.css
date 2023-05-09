@@ -1,0 +1,26 @@
+.shape1{
+    width: 1500px;
+    height: 800px;
+    position: relative;
+    z-index: 1;
+}
+
+.shape2{
+    width: 1500px;
+    height: 800px;
+    position: absolute;
+    left: 4px;
+    top: 20px;
+    z-index: 2;
+}
+
+.shape3{
+    width: 1500px;
+    height: 800px;
+    position: absolute;
+    left: 8px;
+    top: 20px;
+    z-index: 2;
+}
+   
+    
