@@ -51,10 +51,11 @@
 }
 
 .speechBubble3{
-    width: 215px;
-    height: 145px;
+    width: 220px;
+    height: 150px;
     left: 1230px;
     top: 480px;
     position: absolute;
     z-index: 3;
 }
+
