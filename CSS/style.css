@@ -1,7 +1,7 @@
 .shape1{
     width: 1500px;
     height: 800px;
-    position: relative;
+    position: absolute;
     z-index: 1;
 }
 
@@ -22,4 +22,39 @@
     top: 20px;
     z-index: 2;
 }
-    
+
+.logo{
+    width: 200px;
+    height: 170px;
+    left: 5px;
+    top: 5px;
+    position: relative;
+    z-index: 3;
+}
+
+.speechBubble1{
+    width: 270px;
+    height: 135px;
+    left: 1190px;
+    top: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.speechBubble2{
+    width: 250px;
+    height: 100px;
+    left: 1190px;
+    top: 230px;
+    position: absolute;
+    z-index: 3;
+}
+
+.speechBubble3{
+    width: 215px;
+    height: 145px;
+    left: 1230px;
+    top: 480px;
+    position: absolute;
+    z-index: 3;
+}
