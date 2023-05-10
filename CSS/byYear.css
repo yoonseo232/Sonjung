@@ -1,7 +1,24 @@
 .rose1{
-    width: 480px;
-    height: 350px;
+    overflow: scroll;
+    width: 440px;
+    height: 335px;
+    left: 0px;
+    top: 415px;
     position: fixed;
     position: absolute;
     z-index: 4;
+    position: fixed;
 }
+
+.rose2{
+    overflow: scroll;
+    width: 445px;
+    height: 285px;
+    left: 1100px;
+    top: 0px;
+    position: fixed;
+    position: absolute;
+    z-index: 4;
+    position: fixed;
+}
+
