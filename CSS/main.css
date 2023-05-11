@@ -1,24 +1,34 @@
 
-.shape1{
+.shape1-1{
     align-items: center;
-    width: 1500px;
-    height: 700px;
+    width: 200%;
+    height: 400%;
     position: absolute;
     z-index: 1;
 }
 
-.shape2{
+
+.shape1-2{
+    display: none;
+}
+
+.shape2-1{
     align-items: center;
-    width: 1500px;
-    height: 700px;
+    width: 200%;
+    height: 400%;
     position: absolute;
     z-index: 2;
 }
 
+.shape2-2{
+    display: none;
+}
+
+
 .shape3{
     align-items: center;
-    width: 1500px;
-    height: 700px;
+    width: 200%;
+    height: 400%;
     position: absolute;
     z-index: 2;
 }
@@ -30,31 +40,33 @@
     z-index: 3;
 }
 
-.speechBubble1{
+.speechBubble1-1{
     width: 290px;
     height: 135px;
-    /*left: 970px;*/
-    top: 75px;
+    left: 74%;
+    top: 33%;
     position: absolute;
     z-index: 3;
 }
 
-.speechBubble2{
-    align-items: right;
+.speechBubble1-1:hover{
+    cursor: pointer;
+}
+
+.speechBubble2-1{
     width: 270px;
     height: 100px;
-    /*left: 970px;*/
-    top: 230px;
+    left: 75%;
+    top: 112%;
     position: absolute;
     z-index: 3;
 }
 
-.speechBubble3{
-    align-items: right;
+.speechBubble3-1{
     width: 240px;
     height: 150px;
-    /*left: 1010px;*/
-    top: 480px;
+    left: 77%;
+    top: 240%;
     position: absolute;
     z-index: 3;
 }
@@ -66,3 +78,59 @@
     margin: 0;
     font-size: 0px;
 }
+
+.hamburgerMemu{
+    display: none;
+}
+
+@media (max-width: 1400px) {
+    .speechBubble1-1 {
+      display: none;
+    }
+    .speechBubble2-1 {
+        display: none;
+    }
+    .speechBubble3-1 {
+        display: none;
+    }
+    .hamburgerMemu{
+        width: 60px;
+        height: 30px;
+        top: 20%;
+        left: 98%;
+        display: block;
+        position: absolute;
+        z-index: 3;
+    }
+  }
+
+  @media (max-width: 872px) {
+    .shape1-1{
+        display: none;
+    }
+    .shape1-2{
+        width: 200%;;
+        height: 183%;
+        top: 18%;
+        display: block;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .shape2-1{
+        display: none;
+    }
+
+    .shape2-2{
+        width: 200%;;
+        height: 253%;
+        top: 130%;
+        display: block;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .shape3{
+        display: none;
+    }
+  }
