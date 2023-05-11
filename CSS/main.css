@@ -1,61 +1,68 @@
+
 .shape1{
+    align-items: center;
     width: 1500px;
-    height: 800px;
+    height: 700px;
     position: absolute;
     z-index: 1;
 }
 
 .shape2{
+    align-items: center;
     width: 1500px;
-    height: 800px;
+    height: 700px;
     position: absolute;
-    left: 4px;
-    top: 20px;
     z-index: 2;
 }
 
 .shape3{
+    align-items: center;
     width: 1500px;
-    height: 800px;
+    height: 700px;
     position: absolute;
-    left: 8px;
-    top: 20px;
     z-index: 2;
 }
 
 .logo{
-    width: 200px;
+    width: 220px;
     height: 170px;
-    left: 5px;
-    top: 5px;
     position: relative;
     z-index: 3;
 }
 
 .speechBubble1{
-    width: 270px;
+    width: 290px;
     height: 135px;
-    left: 1190px;
+    /*left: 970px;*/
     top: 75px;
     position: absolute;
     z-index: 3;
 }
 
 .speechBubble2{
-    width: 250px;
+    align-items: right;
+    width: 270px;
     height: 100px;
-    left: 1190px;
+    /*left: 970px;*/
     top: 230px;
     position: absolute;
     z-index: 3;
 }
 
 .speechBubble3{
-    width: 220px;
+    align-items: right;
+    width: 240px;
     height: 150px;
-    left: 1230px;
+    /*left: 1010px;*/
     top: 480px;
     position: absolute;
     z-index: 3;
 }
 
+.row {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    font-size: 0px;
+}
