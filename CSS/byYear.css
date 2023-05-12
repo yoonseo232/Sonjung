@@ -1,7 +1,22 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 15%;
+    height: 100%;
+    left: -43%;
+    top: 22%;
+    position : relative;
+    z-index: 3;
+    cursor: pointer;
+}
+
 .rose1{
     overflow: scroll;
-    width: 440px;
-    height: 335px;
+    width: 27%;
+    height: 20%px;
     left: 0px;
     top: 55%;
     position: fixed;
@@ -12,51 +27,48 @@
 
 .rose2{
     overflow: scroll;
-    width: 445px;
-    height: 285px;
-    left: 1100px;
-    top: 0px;
-    position: fixed;
+    width: 30%;
+    height: 20%px;
+    left: 72%;
+    top: 0%;
     position: absolute;
     z-index: 4;
     position: fixed;
 }
 
 .mainSquare{
-    border-width: 4px;
+    border-width: 3%;
     border-color: black;
     border-style: solid;
-    width: 1330px;
-    height: 700px;
+    left: 10%;
+    width: 70%;
+    height: 800%;
     margin-left: 80px;
     margin-top: 230px;
     position: absolute;
     z-index: 1;
+    
 }
 
 .barSquare{
-    border-width: 4px;
+    border-width: 3%;
     border-color: black;
     border-style: solid;
-    width: 850px;
-    height: 70px;
-    margin-top: 100px;
-    margin-left: 260px;
-    padding-left: 80px;
-    padding-top: 30px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    top: 3%;
+    left: 8%;
+    width: 55%;
+    height: 9%;
+    margin-top: 8%;
+    margin-left: 15%;
     position: absolute;
     z-index: 2;
 }
 
 .font1{
     font-family: 나눔명조;
-    font-size: 50px;
-    left: 620px;
-    top: 30px;
+    font-size: 400%;
+    left: 39%;
+    top: 5%;
     display: inline;
     position: absolute;
     z-index: 2;
@@ -64,19 +76,63 @@
 
 .font2{
     font-family: 나눔명조;
-    font-size: 40px;
+    font-size: 250%;
     display: inline;
-    margin-top: 120px;
-    margin-left: 50px;
+    margin-top: 0.3%;
+    margin-left: 7%;
 
 }
 
-.logo{
-    width: 200px;
-    height: 170px;
-    left: 5px;
-    top: 5px;
-    position: relative;
-    z-index: 4;
+.font2-1{
+    font-family: 나눔명조;
+    font-size: 250%;
+    display: inline;
+    margin-top: 0.3%;
+    margin-left: 0.1%;
 }
 
+
+@media (max-width: 1240px) {
+    
+    .barSquare{
+        border-width: 2%;
+        border-color: black;
+        border-style: solid;
+        top: 5%;
+        left: 10%;
+        width: 55%;
+        height: 9%;
+        margin-top: 8%;
+        margin-left: 15%;
+        padding-top: 0.5%;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .font1{
+        font-family: 나눔명조;
+        font-size: 350%;
+        left: 39%;
+        top: 5%;
+        display: inline;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .font2{
+        font-family: 나눔명조;
+        font-size: 200%;
+        display: inline;
+        margin-top: 0.3%;
+        margin-left: 7%;
+    
+    }
+    
+    .font2-1{
+        font-family: 나눔명조;
+        font-size: 200%;
+        display: inline;
+        margin-top: 0.3%;
+        margin-left: 0.1%;
+    }
+}

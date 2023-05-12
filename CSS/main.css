@@ -43,7 +43,7 @@
 .speechBubble1-1{
     width: 290px;
     height: 135px;
-    left: 74%;
+    left: 77%;
     top: 33%;
     position: absolute;
     z-index: 3;
@@ -56,7 +56,7 @@
 .speechBubble2-1{
     width: 270px;
     height: 100px;
-    left: 75%;
+    left: 78%;
     top: 112%;
     position: absolute;
     z-index: 3;
@@ -65,7 +65,7 @@
 .speechBubble3-1{
     width: 240px;
     height: 150px;
-    left: 77%;
+    left: 80%;
     top: 240%;
     position: absolute;
     z-index: 3;
@@ -84,6 +84,7 @@
 }
 
 @media (max-width: 1400px) {
+
     .speechBubble1-1 {
       display: none;
     }
@@ -96,8 +97,8 @@
     .hamburgerMemu{
         width: 60px;
         height: 30px;
-        top: 20%;
-        left: 98%;
+        top: 27%;
+        left: 90%;
         display: block;
         position: absolute;
         z-index: 3;
@@ -105,6 +106,12 @@
   }
 
   @media (max-width: 872px) {
+    .logo{
+        width: 180px;
+        height: 140px;
+        position: relative;
+        z-index: 3;
+    }
     .shape1-1{
         display: none;
     }
@@ -132,5 +139,34 @@
 
     .shape3{
         display: none;
+    }
+
+    .hamburgerMemu{
+        width: 60px;
+        height: 30px;
+        top: 27%;
+        left: 87%;
+        display: block;
+        position: absolute;
+        z-index: 3;
+    }
+  }
+
+  @media (max-width: 530px) {
+    .logo{
+        width: 140px;
+        height: 105px;
+        position: relative;
+        z-index: 3;
+    }
+   
+    .hamburgerMemu{
+        width: 53px;
+        height: 25px;
+        top: 27%;
+        left: 83%;
+        display: block;
+        position: absolute;
+        z-index: 3;
     }
   }
