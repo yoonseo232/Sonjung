@@ -1,4 +1,6 @@
-
+div{
+    align-self: center;
+}
 .shape1-1{
     align-items: center;
     width: 200%;
@@ -170,3 +172,4 @@
         z-index: 3;
     }
   }
+
