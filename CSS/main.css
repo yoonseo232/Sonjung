@@ -1,7 +1,7 @@
 div{
     align-self: center;
 }
-.shape1-1{
+.shape1_1{
     align-items: center;
     width: 200%;
     height: 400%;
@@ -10,11 +10,11 @@ div{
 }
 
 
-.shape1-2{
+.shape1_2{
     display: none;
 }
 
-.shape2-1{
+.shape2_1{
     align-items: center;
     width: 200%;
     height: 400%;
@@ -22,12 +22,12 @@ div{
     z-index: 2;
 }
 
-.shape2-2{
+.shape2_2{
     display: none;
 }
 
 
-.shape3{
+.shape3_1{
     align-items: center;
     width: 200%;
     height: 400%;
@@ -42,7 +42,7 @@ div{
     z-index: 3;
 }
 
-.speechBubble1-1{
+.speechBubble1_1{
     width: 290px;
     height: 135px;
     left: 77%;
@@ -51,11 +51,11 @@ div{
     z-index: 3;
 }
 
-.speechBubble1-1:hover{
+.speechBubble1_1:hover{
     cursor: pointer;
 }
 
-.speechBubble2-1{
+.speechBubble2_1{
     width: 270px;
     height: 100px;
     left: 78%;
@@ -64,7 +64,7 @@ div{
     z-index: 3;
 }
 
-.speechBubble3-1{
+.speechBubble3_1{
     width: 240px;
     height: 150px;
     left: 80%;
@@ -87,13 +87,13 @@ div{
 
 @media (max-width: 1400px) {
 
-    .speechBubble1-1 {
+    .speechBubble1_1 {
       display: none;
     }
-    .speechBubble2-1 {
+    .speechBubble2_1 {
         display: none;
     }
-    .speechBubble3-1 {
+    .speechBubble3_1 {
         display: none;
     }
     .hamburgerMemu{
@@ -114,10 +114,10 @@ div{
         position: relative;
         z-index: 3;
     }
-    .shape1-1{
+    .shape1_1{
         display: none;
     }
-    .shape1-2{
+    .shape1_2{
         width: 200%;;
         height: 183%;
         top: 18%;
@@ -126,11 +126,11 @@ div{
         z-index: 1;
     }
 
-    .shape2-1{
+    .shape2_1{
         display: none;
     }
 
-    .shape2-2{
+    .shape2_2{
         width: 200%;;
         height: 253%;
         top: 130%;
@@ -139,7 +139,7 @@ div{
         z-index: 1;
     }
 
-    .shape3{
+    .shape3_1{
         display: none;
     }
 
