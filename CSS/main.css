@@ -1,12 +1,15 @@
-div{
-    align-self: center;
-}
+
+
 .shape1_1{
     align-items: center;
     width: 200%;
     height: 400%;
     position: absolute;
     z-index: 1;
+}
+
+.shape1_2{
+    display: none;
 }
 
 
@@ -78,7 +81,40 @@ div{
 }
 
 .hamburgerMemu{
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    top: 27%;
+    left: 90%;
     display: none;
+    position: absolute;
+    transition: all ease 1s;
+    z-index: 3;
+}
+
+.hamburgerMemu:hover {
+    transform: rotateY( 180deg );
+}
+
+.sideBar{
+    width: 15%;
+    height: 420%;
+    top: 5%;
+    left: 86%;
+    transition: all ease 0.5s;
+    display: none;
+    position: absolute;
+    z-index: 4;
+}
+
+.xButton{
+    width: 50px;
+    height: 25px;
+    top: 13%;
+    left: 97%;
+    display: none;
+    position: absolute;
+    z-index: 5;
 }
 
 @media (max-width: 1400px) {
@@ -93,14 +129,9 @@ div{
         display: none;
     }
     .hamburgerMemu{
-        width: 60px;
-        height: 30px;
-        top: 27%;
-        left: 90%;
         display: block;
-        position: absolute;
-        z-index: 3;
     }
+
   }
 
   @media (max-width: 872px) {
@@ -145,17 +176,22 @@ div{
         top: 27%;
         left: 87%;
         display: block;
-        position: absolute;
-        z-index: 3;
     }
   }
 
   @media (max-width: 530px) {
+    .shape1_2{
+        width: 200%;;
+        height: 183%;
+        top: 18%;
+        display: block;
+        position: absolute;
+        z-index: 2;
+    }
+
     .logo{
         width: 140px;
         height: 105px;
-        position: relative;
-        z-index: 3;
     }
    
     .hamburgerMemu{
@@ -164,8 +200,6 @@ div{
         top: 27%;
         left: 83%;
         display: block;
-        position: absolute;
-        z-index: 3;
     }
   }
 
