@@ -8,7 +8,7 @@ input[id="menuicon"] + label{
     height:50px;
     position:fixed;
     right:0;
-    top:calc(5%);
+    top:calc(50% - 25px);
     transition:all .35s;
     cursor:pointer;
     
@@ -23,12 +23,34 @@ input[id="menuicon"] + label span{
     background:#000;
     transition:all .35s;
 }
-
+input[id="menuicon"] + label span:nth-child(1) {
+    top:0;
+}
+input[id="menuicon"] + label span:nth-child(2){
+    top:50%;
+    transform:translateY(-50%);
+}
+input[id="menuicon"] + label span:nth-child(3){
+    bottom:0;
+}
 input[id="menuicon"]:checked + label{
     z-index:2;
     right:300px;
 }     
-
+input[id="menuicon"]:checked + label span {
+    background:#000;
+}
+input[id="menuicon"]:checked + label span:nth-child(1){
+    top:50%;
+    transform:translateY(-50%) rotate(45deg);
+}
+input[id="menuicon"]:checked + label span:nth-child(2){
+    opacity:0;
+}
+input[id="menuicon"]:checked + label span:nth-child(3){
+    bottom:50%;
+    transform:translatey(50%) rotate(-45deg);
+}
 
 .sidebar {
     width:300px;

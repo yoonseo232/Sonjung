@@ -100,9 +100,15 @@
     top: 5%;
     left: 86%;
     transition: all ease 0.5s;
+    display: none;
     position: absolute;
     z-index: 4;
 }
+
+.sidebar-open {
+    display: block;
+}
+
 
 .xButton{
     width: 50px;

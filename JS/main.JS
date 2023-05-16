@@ -1,14 +1,12 @@
-const sidebar = document.querySelector('.sidebar');
-        const btn = document.querySelector('..hamburgerMemu');
-        
-        openToggle = () => {
-        	sidebar.classList.toggle('active');
-        }
-        
-        /*
-        function openToggle() {
-        	sidebar.classList.toggle('active');
-        }
-        */
-        
-        btn.addEventListener('click', openToggle);
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const sidebar = document.querySelector('.sidebar');
+
+    hamburgerMenu.addEventListener('click', openSidebar);
+
+    function openSidebar() {
+      sidebar.classList.add('open');
+    }
+
+    function closeSidebar() {
+      sidebar.classList.remove('open');
+      
