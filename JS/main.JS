@@ -9,4 +9,4 @@ const hamburgerMenu = document.querySelector('.hamburger-menu');
 
     function closeSidebar() {
       sidebar.classList.remove('open');
-      
+    }
