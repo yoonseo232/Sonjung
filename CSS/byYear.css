@@ -178,7 +178,58 @@ div{
 
     .font1{
         font-size: 330%;
-        left: 36%;
+        left: 34%;
+        top: 5%;
+        z-index: 2;
+    }
+
+    .font2{
+        font-size: 180%;
+        margin-top: 0.3%;
+        margin-left: 7%;
+    
+    }
+    
+    .font2-1{
+        font-size: 180%;
+        margin-top: 0.3%;
+        margin-left: 0.1%;
+    }
+}
+
+@media (max-width: 930px) {
+    .rose1{
+        width: 30%;
+        height: 38%;
+        left: 0%;
+        top: 65%;
+    }
+    
+    .rose2{
+        width: 33%;
+        height: 31%;
+        left: 72%;
+        top: 0%;
+    }
+
+    .mainSquare{
+        top: -3%;
+        margin-top: 23%;
+    }
+
+    .barSquare{
+        top: 5%;
+        left: 12%;
+        width: 55%;
+        height: 9%;
+        margin-top: 8%;
+        margin-left: 10%;
+        padding-top: 0.5%;
+    }
+
+    .font1{
+        font-size: 330%;
+        left: 34%;
         top: 5%;
         z-index: 2;
     }
