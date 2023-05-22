@@ -2,6 +2,7 @@
     align-items: center;
     width: 200%;
     height: 400%;
+    transition: all ease 0.5s;
     position: absolute;
     z-index: 1;
 }
@@ -15,6 +16,7 @@
     align-items: center;
     width: 200%;
     height: 400%;
+    transition: all ease 0.5s;
     position: absolute;
     z-index: 2;
 }
@@ -28,6 +30,7 @@
     align-items: center;
     width: 200%;
     height: 400%;
+    transition: all ease 0.5s;
     position: absolute;
     z-index: 2;
 }
@@ -80,10 +83,10 @@
 
 .hamburgerMemu{
     cursor: pointer;
-    width: 60px;
-    height: 30px;
+    width: 70px;
+    height: 40px;
     top: 27%;
-    left: 90%;
+    left: 89%;
     display: none;
     position: absolute;
     transition: all ease 1s;
@@ -132,6 +135,8 @@
         display: none;
     }
     .hamburgerMemu{
+        width: 70px;
+        height: 40px;
         display: block;
     }
 
@@ -151,6 +156,7 @@
         width: 200%;;
         height: 183%;
         top: 18%;
+        transition: all ease 0.5s;
         display: block;
         position: absolute;
         z-index: 1;
@@ -164,6 +170,7 @@
         width: 200%;;
         height: 253%;
         top: 130%;
+        transition: all ease 0.5s;
         display: block;
         position: absolute;
         z-index: 1;
@@ -174,8 +181,8 @@
     }
 
     .hamburgerMemu{
-        width: 60px;
-        height: 30px;
+        width: 65px;
+        height: 35px;
         top: 27%;
         left: 87%;
         display: block;
