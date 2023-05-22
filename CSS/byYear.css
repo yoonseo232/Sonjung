@@ -14,7 +14,7 @@ div{
     left: -43%;
     top: 22%;
     position : relative;
-    z-index: 3;
+    z-index: 6;
     cursor: pointer;
 }
 
@@ -224,14 +224,13 @@ div{
         height: 9%;
         margin-top: 8%;
         margin-left: 10%;
-        padding-top: 0.5%;
+        padding-top: 0.8%;
     }
 
     .font1{
         font-size: 300%;
         left: 34%;
         top: 5%;
-        z-index: 2;
     }
 
     .font2{
@@ -282,7 +281,6 @@ div{
         font-size: 280%;
         left: 34%;
         top: 5%;
-        z-index: 2;
     }
 
     .font2{
@@ -310,7 +308,7 @@ div{
         border-bottom: 15px solid transparent;
         border-left: 15px solid transparent;
         position: relative;
-        z-index: 2;
+        z-index: 4;
     }
 
 
@@ -341,9 +339,96 @@ div{
 
     .font1{
         font-size: 280%;
-        left: 34%;
+        left: 32%;
         top: 5%;
-        z-index: 2;
+    }
+
+}
+
+@media (max-width: 670px) {
+    .taiangleMemu{
+        margin-top: 17%;
+        left: 24%;
+    }
+
+    .rose1{
+        display: none;
+    }
+    
+    .rose2{
+        display: none;
+    }
+
+    .mainSquare{
+        top: -1%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 270%;
+        left: 29%;
+        top: 5%;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .taiangleMemu{
+        margin-top: 22%;
+        left: 27%;
+    }
+
+    .mainSquare{
+        top: 2%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 260%;
+        left: 26%;
+        top: 5%;
+    }
+
+}
+
+@media (max-width: 460px) {
+    .taiangleMemu{
+        border-top: 13px solid #000000;
+        border-right: 13px solid transparent;
+        border-bottom: 13px solid transparent;
+        border-left: 13px solid transparent;
+        margin-top: 26%;
+        left: 27%;
+    }
+
+    .mainSquare{
+        top: 4%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 230%;
+        left: 26%;
+        top: 5%;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .taiangleMemu{
+        margin-top: 28%;
+        left: 27%;
+    }
+
+    .mainSquare{
+        top: 6%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 230%;
+        left: 24%;
+        top: 5%;
     }
 
 }
