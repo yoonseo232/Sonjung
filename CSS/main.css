@@ -81,17 +81,12 @@
     font-size: 0px;
 }
 
-.hamburgerMemu{
-    cursor: pointer;
-    width: 70px;
-    height: 40px;
-    top: 27%;
-    left: 89%;
-    display: none;
-    position: absolute;
-    transition: all ease 1s;
-    z-index: 3;
+#memu{
+    width: 10%;
+    height: 5%;
+    z-index: 5;
 }
+
 
 .hamburgerMemu:hover {
     transform: rotateY( 180deg );

@@ -1,12 +1,5 @@
-const hamburgerMenu = document.querySelector('.hamburger-menu');
-    const sidebar = document.querySelector('.sidebar');
+document.querySelector('#memu').onclick = function(){
+  document.querySelector('#bar')
+}
 
-    hamburgerMenu.addEventListener('click', openSidebar);
-
-    function openSidebar() {
-      sidebar.classList.add('open');
-    }
-
-    function closeSidebar() {
-      sidebar.classList.remove('open');
-    }
+document.getElementById('')
