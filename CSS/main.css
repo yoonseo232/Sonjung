@@ -81,42 +81,6 @@
     font-size: 0px;
 }
 
-#memu{
-    width: 10%;
-    height: 5%;
-    z-index: 5;
-}
-
-
-.hamburgerMemu:hover {
-    transform: rotateY( 180deg );
-}
-
-.sideBar{
-    width: 15%;
-    height: 420%;
-    top: 5%;
-    left: 86%;
-    transition: all ease 0.5s;
-    display: none;
-    position: absolute;
-    z-index: 4;
-}
-
-.sidebar-open {
-    display: block;
-}
-
-
-.xButton{
-    width: 50px;
-    height: 25px;
-    top: 13%;
-    left: 97%;
-    display: none;
-    position: absolute;
-    z-index: 5;
-}
 
 @media (max-width: 1400px) {
 
@@ -128,11 +92,6 @@
     }
     .speechBubble3_1 {
         display: none;
-    }
-    .hamburgerMemu{
-        width: 70px;
-        height: 40px;
-        display: block;
     }
 
   }
@@ -175,12 +134,104 @@
         display: none;
     }
 
-    .hamburgerMemu{
-        width: 65px;
-        height: 35px;
-        top: 27%;
-        left: 87%;
-        display: block;
+    
+input[id="menuicon"]{
+    display:none;
+}
+input[id="menuicon"] + label{
+    display:block; 
+    margin:20px;
+    width:50px;
+    height:40px;
+    position:fixed;
+    right:1%;
+    top:calc(5% - 25px);
+    transition:all .35s;
+    cursor:pointer;
+    z-index: 7;
+    
+}
+
+    input[id="menuicon"] + label span{
+        display:block;
+        position:absolute;
+        width:100%;
+        height:5px;
+        border-radius:30px;
+        background:#000;
+        transition:all .35s;
+        z-index: 7;
+    }
+    input[id="menuicon"] + label span:nth-child(1) {
+        top:0;
+        z-index: 7;
+    }
+    input[id="menuicon"] + label span:nth-child(2){
+        top:50%;
+        transform:translateY(-50%);
+        z-index: 7;
+    }
+    input[id="menuicon"] + label span:nth-child(3){
+        bottom:0;
+        z-index: 7;
+    }
+    input[id="menuicon"]:checked + label{
+        z-index:2;
+        right:250px;
+        z-index: 7;
+    }     
+    input[id="menuicon"]:checked + label span {
+        background:#000;
+        z-index: 7;
+    }
+    input[id="menuicon"]:checked + label span:nth-child(1){
+        top:50%;
+        transform:translateY(-50%) rotate(45deg);
+        z-index: 7;
+    }
+    input[id="menuicon"]:checked + label span:nth-child(2){
+        opacity:0;
+        z-index: 7;
+    }
+    input[id="menuicon"]:checked + label span:nth-child(3){
+        bottom:50%;
+        transform:translatey(50%) rotate(-45deg);
+        z-index: 7;
+    }
+
+    .sidebar {
+        width:250px;
+        height:100%;
+        background:#222;
+        position:fixed;
+        top:0;
+        right:-300px;
+        z-index:1;
+        transition:all .35s;
+        z-index: 7;
+    }
+    input[id="menuicon"]:checked + label + div {
+        right:0;
+    }
+
+    .menuFont1{
+        font-family: 나눔명조;
+        font-size: 150%;
+        color: #fff;
+        margin-left: 10%;
+        margin-top: 15%;
+        cursor: pointer;
+        z-index: 9;
+    }
+
+    .menuFont2{
+        font-family: 나눔명조;
+        font-size: 150%;
+        color: #fff;
+        margin-left: 10%;
+        margin-top: 5%;
+        cursor: pointer;
+        z-index: 9;
     }
   }
 
@@ -199,11 +250,4 @@
         height: 105px;
     }
    
-    .hamburgerMemu{
-        width: 53px;
-        height: 25px;
-        top: 27%;
-        left: 83%;
-        display: block;
-    }
   }
