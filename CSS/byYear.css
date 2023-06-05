@@ -184,6 +184,11 @@ input[id="menuicon"]:checked + label + div {
 
 
 @media (max-width: 1240px) {
+    .logo{
+        left: -38%;
+        top: 22%;
+    }
+
     .rose1{
         width: 30%;
         height: 43%;
@@ -285,6 +290,12 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 930px) {
+    .logo{
+        width: 20%;
+        height: 100%;
+        left: -40%;
+        top: 22%;
+    }
     .rose1{
         width: 30%;
         height: 33%;
@@ -385,16 +396,16 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 760px) {
+
     .taiangleMemu{
         width: 0px;
         height: 0px;
         margin-top: 17%;
-        left: 24%;
+        margin-left: 50%;
         border-top: 15px solid #000000;
         border-right: 15px solid transparent;
         border-bottom: 15px solid transparent;
         border-left: 15px solid transparent;
-        position: relative;
         z-index: 4;
     }
 
