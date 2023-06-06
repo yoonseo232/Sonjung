@@ -109,7 +109,6 @@ input[id="menuicon"] + label{
     top:calc(7% - 25px);
     cursor:pointer;
     z-index: 10;
-    
 }
 
 input[id="menuicon"] + label span{

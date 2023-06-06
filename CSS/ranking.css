@@ -32,6 +32,16 @@ div{
     z-index: 2;
 }
 
+.font2{
+    font-family: 나눔명조;
+    font-size: 150%;
+    left: 38%;
+    top: 17%;
+    display: inline;
+    position: absolute;
+    z-index: 2;
+}
+
 .mainSquare{
     border-width: 3%;
     border-color: black;
@@ -68,13 +78,15 @@ div{
     position: fixed;
 }
 
-.lace{
-    width: 0%;
-    height: 2%;
-    left: 3%;
-    top: 0%;
+.star1{
+    width: 12%;
+    height: 3%;
+    left: -43.8%;
+    top: 0.3%;
+    position: relative;
     z-index: 3;
 }
+
 
 input[id="menuicon"] + label{
     display:block; 
@@ -82,7 +94,7 @@ input[id="menuicon"] + label{
     width:50px;
     height:40px;
     position:fixed;
-    right: 0%;
+    right: 0.8%;
     top:calc(7% - 25px);
     cursor:pointer;
     z-index: 10;
@@ -157,4 +169,242 @@ input[id="menuicon"]:checked + label + div {
     margin-top: 5%;
     cursor: pointer;
     z-index: 20;
+}
+
+@media (max-width: 1240px) {
+    .logo{
+        left: -38%;
+        top: 22%;
+    }
+
+    .rose1{
+        width: 30%;
+        height: 43%;
+        left: 0%;
+        top: 60%;
+    }
+    
+    .rose2{
+        width: 33%;
+        height: 36%;
+        left: 72%;
+        top: 0%;
+    }
+    
+    .mainSquare{
+        margin-left: 4.5%;
+        margin-top: 20%;
+    }
+    
+
+    .font1{
+        font-size: 350%;
+        left: 36%;
+        top: 5%;
+        z-index: 2;
+    }
+
+    .font2{
+        
+    
+    }
+    
+}
+
+
+@media (max-width: 1060px) {
+    .rose1{
+        width: 30%;
+        height: 38%;
+        left: 0%;
+        top: 65%;
+    }
+    
+    .rose2{
+        width: 33%;
+        height: 31%;
+        left: 72%;
+        top: 0%;
+    }
+
+    .mainSquare{
+        top: -3%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 330%;
+        left: 34%;
+        top: 5%;
+        z-index: 2;
+    }
+
+    .font2{
+
+    }
+
+}
+
+@media (max-width: 930px) {
+    .logo{
+        width: 20%;
+        height: 100%;
+        left: -40%;
+        top: 22%;
+    }
+    .rose1{
+        width: 30%;
+        height: 33%;
+        left: 0%;
+        top: 69%;
+    }
+    
+    .rose2{
+        width: 33%;
+        height: 25%;
+        left: 72%;
+        top: 0%;
+    }
+
+    .mainSquare{
+        top: 1%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 300%;
+        left: 34%;
+        top: 5%;
+    }
+
+    .font2{
+
+    }
+}
+
+@media (max-width: 850px) {
+    .rose1{
+        width: 30%;
+        height: 30%;
+        left: 0%;
+        top: 71%;
+    }
+    
+    .rose2{
+        width: 33%;
+        height: 25%;
+        left: 72%;
+        top: 0%;
+    }
+
+    .mainSquare{
+        top: 3%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 280%;
+        left: 34%;
+        top: 5%;
+    }
+
+    .font2{
+        
+    }
+   
+}
+
+@media (max-width: 760px) {
+    .rose1{
+        width: 34%;
+        height: 30%;
+        left: 0%;
+        top: 71%;
+    }
+    
+    .rose2{
+        width: 37%;
+        height: 26%;
+        left: 72%;
+        top: 0%;
+    }
+
+    .mainSquare{
+        top: -3%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 280%;
+        left: 32%;
+        top: 5%;
+    }
+
+}
+
+@media (max-width: 670px) {
+    .rose1{
+        display: none;
+    }
+    
+    .rose2{
+        display: none;
+    }
+
+    .mainSquare{
+        top: -1%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 270%;
+        left: 29%;
+        top: 5%;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .mainSquare{
+        top: 2%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 260%;
+        left: 26%;
+        top: 5%;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .mainSquare{
+        top: 4%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 230%;
+        left: 26%;
+        top: 5%;
+    }
+
+}
+
+@media (max-width: 420px) {
+    
+    .mainSquare{
+        top: 6%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 230%;
+        left: 24%;
+        top: 5%;
+    }
+
 }
