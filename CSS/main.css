@@ -205,9 +205,11 @@ div{
     .logo{
         width: 180px;
         height: 140px;
+        left: -38%;
         position: relative;
         z-index: 3;
     }
+    
     .shape1_1{
         display: none;
     }
@@ -251,7 +253,11 @@ div{
     input[id="menuicon"] + label span{
         width: 70%;
     }
-    
+
+    .logo{
+        
+    }
+
     .shape1_2{
         width: 200%;;
         height: 183%;

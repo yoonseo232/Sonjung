@@ -78,16 +78,6 @@ div{
     position: fixed;
 }
 
-.star1{
-    width: 12%;
-    height: 3%;
-    left: -43.8%;
-    top: 0.3%;
-    position: relative;
-    z-index: 3;
-}
-
-
 input[id="menuicon"] + label{
     display:block; 
     margin:20px;
@@ -178,16 +168,16 @@ input[id="menuicon"]:checked + label + div {
     }
 
     .rose1{
-        width: 30%;
+        width: 32%;
         height: 43%;
-        left: 0%;
+        left: -1%;
         top: 60%;
     }
     
     .rose2{
-        width: 33%;
+        width: 35%;
         height: 36%;
-        left: 72%;
+        left: 71%;
         top: 0%;
     }
     
@@ -199,31 +189,39 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 350%;
-        left: 36%;
+        left: 38%;
         top: 5%;
         z-index: 2;
     }
 
     .font2{
-        
-    
+        font-size: 140%;
+        left: 35%;
+        top: 17%;
     }
     
 }
 
 
 @media (max-width: 1060px) {
+    .logo{
+        width: 20%;
+        height: 100%;
+        left: -36%;
+        top: 22%;
+    }
+
     .rose1{
-        width: 30%;
+        width: 32%;
         height: 38%;
-        left: 0%;
+        left: -1%;
         top: 65%;
     }
     
     .rose2{
-        width: 33%;
-        height: 31%;
-        left: 72%;
+        width: 37%;
+        height: 30%;
+        left: 70%;
         top: 0%;
     }
 
@@ -234,35 +232,35 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 330%;
-        left: 34%;
+        left: 38%;
         top: 5%;
         z-index: 2;
     }
 
     .font2{
-
+        font-size: 130%;
+        left: 35%;
+        top: 17%;
     }
 
 }
 
 @media (max-width: 930px) {
     .logo{
-        width: 20%;
-        height: 100%;
-        left: -40%;
+        left: -34%;
         top: 22%;
     }
     .rose1{
-        width: 30%;
+        width: 32%;
         height: 33%;
-        left: 0%;
+        left: -1%;
         top: 69%;
     }
     
     .rose2{
-        width: 33%;
+        width: 35%;
         height: 25%;
-        left: 72%;
+        left: 71.5%;
         top: 0%;
     }
 
@@ -273,12 +271,14 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 300%;
-        left: 34%;
+        left: 38%;
         top: 5%;
     }
 
     .font2{
-
+        font-size: 130%;
+        left: 34%;
+        top: 14%;
     }
 }
 
@@ -304,40 +304,52 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 280%;
-        left: 34%;
+        left: 38%;
         top: 5%;
     }
 
     .font2{
-        
+        font-size: 130%;
+        left: 33%;
+        top: 14%;
     }
    
 }
 
 @media (max-width: 760px) {
+    .logo{
+        display: none;
+    }
+
     .rose1{
-        width: 34%;
+        width: 37%;
         height: 30%;
-        left: 0%;
+        left: -1.5%;
         top: 71%;
     }
     
     .rose2{
-        width: 37%;
+        width: 39%;
         height: 26%;
         left: 72%;
         top: 0%;
     }
 
     .mainSquare{
-        top: -3%;
+        top: 0%;
         margin-top: 23%;
     }
 
     .font1{
         font-size: 280%;
-        left: 32%;
+        left: 35%;
         top: 5%;
+    }
+
+    .font2{
+        font-size: 130%;
+        left: 30%;
+        top: 14%;
     }
 
 }
@@ -352,14 +364,20 @@ input[id="menuicon"]:checked + label + div {
     }
 
     .mainSquare{
-        top: -1%;
+        top: 3%;
         margin-top: 23%;
     }
 
     .font1{
         font-size: 270%;
-        left: 29%;
+        left: 35%;
         top: 5%;
+    }
+
+    .font2{
+        font-size: 130%;
+        left: 29%;
+        top: 14%;
     }
 
 }
@@ -377,14 +395,20 @@ input[id="menuicon"]:checked + label + div {
     }
 
     .mainSquare{
-        top: 2%;
+        top: 7%;
         margin-top: 23%;
     }
 
     .font1{
         font-size: 260%;
-        left: 26%;
+        left: 32%;
         top: 5%;
+    }
+
+    .font2{
+        font-size: 110%;
+        left: 26%;
+        top: 14%;
     }
 
 }
@@ -397,8 +421,14 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 230%;
-        left: 26%;
+        left: 24%;
         top: 5%;
+    }
+
+    .font2{
+        font-size: 110%;
+        left: 26%;
+        top: 14%;
     }
 
 }
@@ -411,8 +441,14 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 230%;
-        left: 24%;
+        left: 22%;
         top: 5%;
+    }
+
+    .font2{
+        font-size: 110%;
+        left: 26%;
+        top: 14%;
     }
 
 }
