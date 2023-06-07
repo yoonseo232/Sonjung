@@ -365,6 +365,16 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 550px) {
+    input[id="menuicon"] + label{
+        margin:8px;
+        width:40px;
+        height:30px;
+        right:7%;
+        top:calc(7% - 25px);
+    }
+    input[id="menuicon"] + label span{
+        width: 70%;
+    }
 
     .mainSquare{
         top: 2%;
@@ -380,7 +390,6 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 460px) {
-
     .mainSquare{
         top: 4%;
         margin-top: 23%;
@@ -395,7 +404,6 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 420px) {
-    
     .mainSquare{
         top: 6%;
         margin-top: 23%;
