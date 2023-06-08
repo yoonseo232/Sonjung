@@ -91,7 +91,8 @@ div{
     cursor: pointer;
 
 }
-.font2-1{
+
+.font2-2{
     font-family: 나눔명조;
     font-size: 250%;
     display: inline;
@@ -100,12 +101,19 @@ div{
     cursor: pointer;
 }
 
-.font2-1:hover{
+.font2:hover{
     transform: translateY(-10px);;
 }
 
-.font2:hover{
-    transform: translateY(-10px);;
+.roundCheck {
+    height: 80%; 
+    width: 15%;
+    margin-top: 0.8%;
+    margin-left: -69.5%;
+    border: 3px solid black;
+    border-radius: 3em;
+    position: absolute;
+    z-index: 13;
 }
 
 input[id="menuicon"] + label{
@@ -238,7 +246,7 @@ input[id="menuicon"]:checked + label + div {
     
     }
     
-    .font2-1{
+    .font2-2{
         font-size: 200%;
         margin-top: 0.3%;
         margin-left: 0.1%;
@@ -290,7 +298,7 @@ input[id="menuicon"]:checked + label + div {
     
     }
     
-    .font2-1{
+    .font2-2{
         font-size: 180%;
         margin-top: 0.8%;
         margin-left: 0.1%;
@@ -346,7 +354,7 @@ input[id="menuicon"]:checked + label + div {
     
     }
     
-    .font2-1{
+    .font2-2{
         font-size: 180%;
         margin-top: 0.8%;
         margin-left: 0.1%;
@@ -396,7 +404,7 @@ input[id="menuicon"]:checked + label + div {
     
     }
     
-    .font2-1{
+    .font2-2{
         font-size: 160%;
         margin-top: 0.8%;
         margin-left: 0.1%;

@@ -89,8 +89,8 @@ div{
     margin-top: 0.3%;
     margin-left: 7%;
     cursor: pointer;
-
 }
+
 .font2-1{
     font-family: 나눔명조;
     font-size: 250%;
@@ -393,7 +393,6 @@ input[id="menuicon"]:checked + label + div {
         font-size: 160%;
         margin-top: 0.8%;
         margin-left: 7%;
-    
     }
     
     .font2-1{
