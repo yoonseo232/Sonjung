@@ -1,12 +1,4 @@
-body{
-    width:100%;
-    overflow-x:hidden;
-    }
 
-div{
-    display: flex;
-    justify-content: center;
-}
 
 .shape1_1{
     align-items: center;
@@ -99,7 +91,6 @@ div{
     margin: 0;
     font-size: 0px;
 }
-
 
 @media (max-width: 1400px) {
 
@@ -252,10 +243,6 @@ div{
     }
     input[id="menuicon"] + label span{
         width: 70%;
-    }
-
-    .logo{
-        
     }
 
     .shape1_2{
