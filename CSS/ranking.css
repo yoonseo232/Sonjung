@@ -402,8 +402,8 @@ input[id="menuicon"]:checked + label + div {
 
     .font2{
         font-size: 110%;
-        left: 26%;
-        top: 14%;
+        left: 22%;
+        top: 12%;
     }
 
 }
@@ -416,14 +416,34 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 230%;
-        left: 22%;
+        left: 26%;
         top: 5%;
     }
 
     .font2{
         font-size: 110%;
-        left: 26%;
-        top: 14%;
+        left: 18%;
+        top: 12%;
+    }
+
+}
+
+@media (max-width: 340px) {
+    .mainSquare{
+        top: 6%;
+        margin-top: 23%;
+    }
+
+    .font1{
+        font-size: 210%;
+        left: 25%;
+        top: 5%;
+    }
+
+    .font2{
+        font-size: 90%;
+        left: 18%;
+        top: 12%;
     }
 
 }
