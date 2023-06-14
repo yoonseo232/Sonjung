@@ -1,5 +1,4 @@
 
-
 .shape1_1{
     align-items: center;
     width: 200%;
@@ -117,7 +116,6 @@
         top:calc(7% - 25px);
         cursor:pointer;
         z-index: 10;
-        
     }
     
     input[id="menuicon"] + label span{
@@ -127,6 +125,7 @@
         height:5px;
         border-radius:30px;
         background:#000;
+        transition:all .35s;
     }
     
     input[id="menuicon"] + label span:nth-child(1) {

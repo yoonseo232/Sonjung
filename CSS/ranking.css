@@ -1,3 +1,6 @@
+*{
+    overflow: hidden;
+}
 
 #menuicon{
     display: none;
@@ -88,6 +91,7 @@ input[id="menuicon"] + label span{
     height:5px;
     border-radius:30px;
     background:#000;
+    transition:all .35s;
 }
 
 input[id="menuicon"] + label span:nth-child(1) {
