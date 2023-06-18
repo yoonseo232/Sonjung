@@ -417,7 +417,6 @@ input[id="menuicon"]:checked + label + div {
         display: block;
     }
 
-
     .rose1{
         width: 34%;
         height: 30%;
@@ -450,6 +449,13 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 670px) {
+    .logo{
+        width: 20%;
+        height: 100%;
+        left: -36%;
+        top: 20%;
+    }
+
     .rose1{
         display: none;
     }
@@ -472,6 +478,12 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 550px) {
+    .logo{
+        width: 25%;
+        height: 103%;
+        left: -36%;
+        top: 20%;
+    }
 
     input[id="menuicon"] + label{
         margin: 8px;
@@ -517,5 +529,23 @@ input[id="menuicon"]:checked + label + div {
     .mainSquare{
         top: 6%;
         margin-top: 23%;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .font1{
+        font-size: 2rem;
+        left: 27%;
+        top: 5%;
+    }
+
+    .triangleMemu{
+        top: 13%;
+        left: 83%;
+        border-top: 18px solid #000000;
+        border-right: 13px solid transparent;
+        border-bottom: 13px solid transparent;
+        border-left: 13px solid transparent;
     }
 }
