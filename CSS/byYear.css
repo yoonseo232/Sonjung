@@ -1,5 +1,16 @@
-*{
-    overflow: hidden;
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.logo{
+    width: 15%;
+    height: 100%;
+    left: -43%;
+    top: 22%;
+    position : relative;
+    z-index: 6;
+    cursor: pointer;
 }
 
 #menuicon{
@@ -12,8 +23,8 @@
     height: 48%;
     left: 0%;
     top: 55%;
-    position: fixed;
     position: absolute;
+    position: fixed;
     z-index: 4;
 }
 
@@ -34,7 +45,7 @@
     left: 3%;
     top: -1%;
     width: 85%;
-    height: 70%;
+    height: 60%;
     margin-left: 4.5%;
     margin-top: 16%;
     position: absolute;
@@ -174,8 +185,27 @@ input[id="menuicon"]:checked + label + div {
     z-index: 20;
 }
 
+.triangleMemu{
+    width: 0px;
+    height: 0px;
+    margin-top: 17%;
+    margin-left: 50%;
+    border-top: 15px solid #000000;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: relative;
+    z-index: 4;
+    display: none;
+}
+
 
 @media (max-width: 1240px) {
+    .logo{
+        left: -38%;
+        top: 22%;
+    }
+
     .rose1{
         width: 30%;
         height: 43%;
@@ -226,6 +256,13 @@ input[id="menuicon"]:checked + label + div {
 
 
 @media (max-width: 1060px) {
+    .logo{
+        width: 20%;
+        height: 100%;
+        left: -40%;
+        top: 22%;
+    }
+
     .rose1{
         width: 30%;
         height: 38%;
@@ -376,17 +413,8 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 760px) {
-    .taiangleMemu{
-        width: 0px;
-        height: 0px;
-        margin-top: 17%;
-        margin-left: 50%;
-        border-top: 15px solid #000000;
-        border-right: 15px solid transparent;
-        border-bottom: 15px solid transparent;
-        border-left: 15px solid transparent;
-        position: relative;
-        z-index: 4;
+    .triangleMemu{
+        display: block;
     }
 
 
@@ -422,7 +450,7 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 670px) {
-    .taiangleMemu{
+    .traiangleMemu{
         margin-top: 17%;
         left: 24%;
     }
@@ -449,6 +477,11 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 550px) {
+    .traiangleMemu{
+        margin-top: 17%;
+        left: -10%;
+    }
+
     input[id="menuicon"] + label{
         margin:8px;
         width:40px;
@@ -460,7 +493,7 @@ input[id="menuicon"]:checked + label + div {
         width: 70%;
     }
 
-    .taiangleMemu{
+    .triangleMemu{
         margin-top: 22%;
         left: 27%;
     }
@@ -479,7 +512,7 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 460px) {
-    .taiangleMemu{
+    .triangleMemu{
         border-top: 13px solid #000000;
         border-right: 13px solid transparent;
         border-bottom: 13px solid transparent;
