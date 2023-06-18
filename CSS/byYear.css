@@ -439,13 +439,11 @@ input[id="menuicon"]:checked + label + div {
 
     .font2{
         font-size: 1.6rem;
-        margin-top: -0.5%;
         margin-left: 7%;
     }
     
     .font2-1{
         font-size: 1.6rem;
-        margin-top: -0.5%;
         margin-left: 0.1%;
     }
 
@@ -472,8 +470,8 @@ input[id="menuicon"]:checked + label + div {
 
     .barSquare{
         top: 6%;
-        left: 8%;
-        width: 65%;
+        left: 5%;
+        width: 70%;
         height: 7%;
         margin-left: 10%;
     }
