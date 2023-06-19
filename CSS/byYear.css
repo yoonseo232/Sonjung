@@ -526,8 +526,16 @@ input[id="menuicon"]:checked + label + div {
 @media (max-width: 460px) {
 
     .mainSquare{
-        top: 4%;
+        top: 8%;
         margin-top: 23%;
+    }
+
+    .barSquare{
+        top: 8%;
+        left: 0%;
+        width: 80%;
+        height: 7%;
+        margin-left: 10%;
     }
 
     .font1{
@@ -536,12 +544,22 @@ input[id="menuicon"]:checked + label + div {
         top: 5%;
     }
 
+    .font2{
+        font-size: 1.3rem;
+        margin-left: 7%;
+    }
+    
+    .font2-1{
+        font-size: 1.3rem;
+        margin-left: 0.1%;
+    }
+
 }
 
 @media (max-width: 420px) {
 
     .mainSquare{
-        top: 6%;
+        top: 8%;
         margin-top: 23%;
     }
 }
@@ -552,6 +570,30 @@ input[id="menuicon"]:checked + label + div {
         font-size: 2rem;
         left: 27%;
         top: 5%;
+    }
+
+    .font2{
+        font-size: 1.2rem;
+        margin-left: 7%;
+    }
+    
+    .font2-1{
+        font-size: 1.2rem;
+        margin-left: 0.1%;
+    }
+
+    .mainSquare{
+        top: 9%;
+        margin-top: 23%;
+    }
+
+    .barSquare{
+        top: 8%;
+        left: 0%;
+        width: 80%;
+        height: 7%;
+        margin-left: 10%;
+        padding-top: 1%;
     }
 
 }

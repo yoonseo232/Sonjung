@@ -13,14 +13,6 @@ html{
     cursor: pointer;
 }
 
-.imgCandycandy{
-    left: 33%;
-    top: 2%;
-    width: 26%;
-    height: 8.3%;
-    position: relative;
-}
-
 #menuicon{
     display: none;
 }
@@ -31,10 +23,9 @@ html{
     height: 48%;
     left: 0%;
     top: 55%;
-    position: fixed;
     position: absolute;
-    z-index: 4;
     position: fixed;
+    z-index: 4;
 }
 
 .rose2{
@@ -54,7 +45,7 @@ html{
     left: 3%;
     top: -1%;
     width: 85%;
-    height: 800%;
+    height: 600%;
     margin-left: 4.5%;
     margin-top: 16%;
     position: absolute;
@@ -77,7 +68,7 @@ html{
 
 .font1{
     font-family: 나눔명조;
-    font-size: 400%;
+    font-size: 4rem;
     left: 37%;
     top: 5%;
     display: inline;
@@ -87,17 +78,16 @@ html{
 
 .font2{
     font-family: 나눔명조;
-    font-size: 250%;
+    font-size: 2.5rem;
     display: inline;
     margin-top: 0.3%;
     margin-left: 7%;
     cursor: pointer;
-
 }
 
-.font2-2{
+.font2-1{
     font-family: 나눔명조;
-    font-size: 250%;
+    font-size: 2.5rem;
     display: inline;
     margin-top: 0.3%;
     margin-left: 0.1%;
@@ -105,18 +95,7 @@ html{
 }
 
 .font2:hover{
-    transform: translateY(-10px);;
-}
-
-.roundCheck {
-    height: 80%; 
-    width: 15%;
-    margin-top: 0.8%;
-    margin-left: -69.5%;
-    border: 3px solid black;
-    border-radius: 3em;
-    position: absolute;
-    z-index: 13;
+    transform: translateY(-10px);
 }
 
 input[id="menuicon"] + label{
@@ -202,6 +181,23 @@ input[id="menuicon"]:checked + label + div {
     z-index: 20;
 }
 
+.roundCheck {
+    height: 80%; 
+    width: 15%;
+    margin-top: 0.8%;
+    margin-left: -69.5%;
+    border: 3px solid black;
+    border-radius: 3em;
+    position: absolute;
+    z-index: 13;
+}
+
+.imgCandycandy{
+    left: 33%;
+    width: 280px;
+    height: 8.3%;
+    position: relative;
+}
 
 @media (max-width: 1240px) {
     .logo{
@@ -237,21 +233,21 @@ input[id="menuicon"]:checked + label + div {
     }
 
     .font1{
-        font-size: 350%;
+        font-size: 3.5rem;
         left: 36%;
         top: 5%;
         z-index: 2;
     }
 
     .font2{
-        font-size: 200%;
+        font-size: 2rem;
         margin-top: 0.3%;
         margin-left: 7%;
     
     }
     
-    .font2-2{
-        font-size: 200%;
+    .font2-1{
+        font-size: 2rem;
         margin-top: 0.3%;
         margin-left: 0.1%;
     }
@@ -259,6 +255,13 @@ input[id="menuicon"]:checked + label + div {
 
 
 @media (max-width: 1060px) {
+    .logo{
+        width: 20%;
+        height: 100%;
+        left: -40%;
+        top: 22%;
+    }
+
     .rose1{
         width: 30%;
         height: 38%;
@@ -302,7 +305,7 @@ input[id="menuicon"]:checked + label + div {
     
     }
     
-    .font2-2{
+    .font2-1{
         font-size: 180%;
         margin-top: 0.8%;
         margin-left: 0.1%;
@@ -310,13 +313,6 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 930px) {
-    .logo{
-        width: 20%;
-        height: 100%;
-        left: -40%;
-        top: 22%;
-    }
-
     .rose1{
         width: 30%;
         height: 33%;
@@ -347,26 +343,27 @@ input[id="menuicon"]:checked + label + div {
     }
 
     .font1{
-        font-size: 300%;
+        font-size: 3rem;
         left: 34%;
         top: 5%;
     }
 
     .font2{
-        font-size: 180%;
+        font-size: 1.8rem;
         margin-top: 0.8%;
         margin-left: 7%;
     
     }
     
-    .font2-2{
-        font-size: 180%;
+    .font2-1{
+        font-size: 1.8rem;
         margin-top: 0.8%;
         margin-left: 0.1%;
     }
 }
 
 @media (max-width: 850px) {
+
     .rose1{
         width: 30%;
         height: 30%;
@@ -397,39 +394,29 @@ input[id="menuicon"]:checked + label + div {
     }
 
     .font1{
-        font-size: 280%;
+        font-size: 2.8rem;
         left: 34%;
         top: 5%;
     }
 
     .font2{
-        font-size: 160%;
+        font-size: 1.6rem;
         margin-top: 0.8%;
         margin-left: 7%;
-    
     }
     
-    .font2-2{
-        font-size: 160%;
+    .font2-1{
+        font-size: 1.6rem;
         margin-top: 0.8%;
         margin-left: 0.1%;
     }
 }
 
 @media (max-width: 760px) {
-    .taiangleMemu{
-        width: 0px;
-        height: 0px;
-        margin-top: 17%;
-        margin-left: 50%;
-        border-top: 15px solid #000000;
-        border-right: 15px solid transparent;
-        border-bottom: 15px solid transparent;
-        border-left: 15px solid transparent;
-        position: relative;
-        z-index: 4;
+    .logo{
+        left: -40%;
+        top: 10%;
     }
-
 
     .rose1{
         width: 34%;
@@ -445,29 +432,41 @@ input[id="menuicon"]:checked + label + div {
         top: 0%;
     }
 
-    
-
     .mainSquare{
-        top: -3%;
+        top: 0%;
         margin-top: 23%;
     }
 
     .barSquare{
-        display: none;
+        top: 6%;
+        left: 10%;
+        width: 60%;
+        height: 7%;
+        margin-left: 10%;
     }
 
     .font1{
-        font-size: 280%;
+        font-size: 2.8rem;
         left: 32%;
         top: 5%;
+    }
+
+    .font2{
+        font-size: 1.6rem;
+        margin-left: 7%;
+    }
+    
+    .font2-1{
+        font-size: 1.6rem;
+        margin-left: 0.1%;
     }
 
 }
 
 @media (max-width: 670px) {
-    .taiangleMemu{
-        margin-top: 17%;
-        left: 24%;
+    .logo{
+        left: -42%;
+        top: -1%;
     }
 
     .rose1{
@@ -479,75 +478,42 @@ input[id="menuicon"]:checked + label + div {
     }
 
     .mainSquare{
-        top: -1%;
-        margin-top: 23%;
-    }
-
-    .font1{
-        font-size: 270%;
-        left: 29%;
-        top: 5%;
-    }
-
-}
-
-@media (max-width: 550px) {
-    input[id="menuicon"] + label{
-        margin:8px;
-        width:40px;
-        height:30px;
-        right:7%;
-        top:calc(7% - 25px);
-    }
-    input[id="menuicon"] + label span{
-        width: 70%;
-    }
-
-    .taiangleMemu{
-        margin-top: 22%;
-        left: 27%;
-    }
-
-    .mainSquare{
         top: 2%;
         margin-top: 23%;
     }
 
-    .font1{
-        font-size: 260%;
-        left: 26%;
-        top: 5%;
-    }
-
-}
-
-@media (max-width: 460px) {
-    .taiangleMemu{
-        border-top: 13px solid #000000;
-        border-right: 13px solid transparent;
-        border-bottom: 13px solid transparent;
-        border-left: 13px solid transparent;
-        margin-top: 26%;
-        left: 27%;
-    }
-
-    .mainSquare{
-        top: 4%;
-        margin-top: 23%;
+    .barSquare{
+        top: 6%;
+        left: 5%;
+        width: 70%;
+        height: 7%;
+        margin-left: 10%;
     }
 
     .font1{
-        font-size: 230%;
-        left: 26%;
+        font-size: 2.7rem;
+        left: 29%;
         top: 5%;
     }
+    
 
 }
 
-@media (max-width: 420px) {
-    .taiangleMemu{
-        margin-top: 28%;
-        left: 27%;
+@media (max-width: 550px) {
+    .logo{
+        left: -40%;
+        top: 10%;
+    }
+
+    input[id="menuicon"] + label{
+        margin: 8px;
+        width: 40px;
+        height: 30px;
+        right: 1%;
+        top: calc(7% - 25px);
+    }
+    input[id="menuicon"] + label span{
+        width: 70%;
     }
 
     .mainSquare{
@@ -555,10 +521,93 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 23%;
     }
 
+    .barSquare{
+        top: 8%;
+        left: 0%;
+        width: 80%;
+        height: 7%;
+        margin-left: 10%;
+    }
+
     .font1{
-        font-size: 230%;
-        left: 24%;
+        font-size: 2.6rem;
+        left: 26%;
         top: 5%;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .mainSquare{
+        top: 8%;
+        margin-top: 23%;
+    }
+
+    .barSquare{
+        top: 8%;
+        left: 0%;
+        width: 80%;
+        height: 7%;
+        margin-left: 10%;
+    }
+
+    .font1{
+        font-size: 2.3rem;
+        left: 26%;
+        top: 5%;
+    }
+
+    .font2{
+        font-size: 1.3rem;
+        margin-left: 7%;
+    }
+    
+    .font2-1{
+        font-size: 1.3rem;
+        margin-left: 0.1%;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .mainSquare{
+        top: 8%;
+        margin-top: 23%;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .font1{
+        font-size: 2rem;
+        left: 27%;
+        top: 5%;
+    }
+
+    .font2{
+        font-size: 1.2rem;
+        margin-left: 7%;
+    }
+    
+    .font2-1{
+        font-size: 1.2rem;
+        margin-left: 0.1%;
+    }
+
+    .mainSquare{
+        top: 9%;
+        margin-top: 23%;
+    }
+
+    .barSquare{
+        top: 8%;
+        left: 0%;
+        width: 80%;
+        height: 7%;
+        margin-left: 10%;
+        padding-top: 1%;
     }
 
 }
