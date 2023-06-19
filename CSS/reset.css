@@ -9,3 +9,7 @@ div{
     justify-content: center;
 }
 
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
