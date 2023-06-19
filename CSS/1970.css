@@ -130,9 +130,10 @@ html{
 .font4{
     font-family: 나눔명조;
     font-size: 1.7rem;
-    display: inline;
     margin-left: -35%;
     margin-top: 8%;
+    text-align: left;
+    display: inline;
     position: absolute;
     z-index: 12;
 }
@@ -227,6 +228,13 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 0.8%;
         margin-left: -75%;
     }
+
+    .font4{
+        font-size: 1.7rem;
+        margin-left: -28%;
+        margin-top: 8%;
+    }
+    
 }
 
 @media (max-width: 1290px){
@@ -235,6 +243,12 @@ input[id="menuicon"]:checked + label + div {
         width: 15%;
         margin-top: 0.8%;
         margin-left: -79%;
+    }
+
+    .font4{
+        font-size: 1.7rem;
+        margin-left: -22%;
+        margin-top: 8%;
     }
 }
 
@@ -296,6 +310,15 @@ input[id="menuicon"]:checked + label + div {
         font-size: 2rem;
         margin-top: 0.3%;
         margin-left: 0.1%;
+    }
+}
+
+@media (max-width: 1120px){
+    .roundCheck {
+        height: 80%; 
+        width: 15%;
+        margin-top: 0.3%;
+        margin-left: -74%;
     }
 }
 
@@ -362,6 +385,15 @@ input[id="menuicon"]:checked + label + div {
         font-size: 180%;
         margin-top: 0.8%;
         margin-left: 0.1%;
+    }
+}
+
+@media (max-width: 980px){
+    .roundCheck {
+        height: 80%; 
+        width: 15%;
+        margin-top: 0.3%;
+        margin-left: -76%;
     }
 }
 
@@ -558,6 +590,13 @@ input[id="menuicon"]:checked + label + div {
         margin-left: 10%;
     }
 
+    .roundCheck {
+        height: 80%; 
+        width: 18%;
+        margin-top: 0.3%;
+        margin-left: -76%;
+    }
+
     .font1{
         font-size: 2.7rem;
         left: 29%;
@@ -565,6 +604,24 @@ input[id="menuicon"]:checked + label + div {
     }
     
 
+}
+
+@media (max-width: 640px) {
+    .roundCheck {
+        height: 80%; 
+        width: 18%;
+        margin-top: 0.3%;
+        margin-left: -78%;
+    }
+}
+
+@media (max-width: 610px) {
+    .roundCheck {
+        height: 80%; 
+        width: 18%;
+        margin-top: 0.3%;
+        margin-left: -82%;
+    }
 }
 
 @media (max-width: 550px) {
