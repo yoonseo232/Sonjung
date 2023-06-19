@@ -220,6 +220,24 @@ input[id="menuicon"]:checked + label + div {
     z-index: 20;
 }
 
+@media (max-width: 1400px){
+    .roundCheck {
+        height: 80%; 
+        width: 15%;
+        margin-top: 0.8%;
+        margin-left: -75%;
+    }
+}
+
+@media (max-width: 1290px){
+    .roundCheck {
+        height: 80%; 
+        width: 15%;
+        margin-top: 0.8%;
+        margin-left: -79%;
+    }
+}
+
 @media (max-width: 1240px) {
     .logo{
         left: -38%;
@@ -251,6 +269,13 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 9.5%;
         margin-left: 14%;
         padding-top: 0.5%;
+    }
+
+    .roundCheck {
+        height: 80%; 
+        width: 15%;
+        margin-top: 0.3%;
+        margin-left: -70%;
     }
 
     .font1{
@@ -312,6 +337,13 @@ input[id="menuicon"]:checked + label + div {
         padding-top: 0.5%;
     }
 
+    .roundCheck {
+        height: 80%; 
+        width: 15%;
+        margin-top: 0.3%;
+        margin-left: -72%;
+    }
+
     .font1{
         font-size: 330%;
         left: 34%;
@@ -361,6 +393,13 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 8%;
         margin-left: 10%;
         padding-top: 0.8%;
+    }
+
+    .roundCheck {
+        height: 80%; 
+        width: 18%;
+        margin-top: 0.3%;
+        margin-left: -78%;
     }
 
     .font1{
@@ -483,6 +522,14 @@ input[id="menuicon"]:checked + label + div {
     }
 
 }
+@media (max-width: 680px){
+    .roundCheck {
+        height: 80%; 
+        width: 19%;
+        margin-top: 0.3%;
+        margin-left: -82%;
+    }
+}
 
 @media (max-width: 670px) {
     .logo{
@@ -558,6 +605,15 @@ input[id="menuicon"]:checked + label + div {
 
 }
 
+@media (max-width: 490px){
+    .roundCheck {
+        height: 1%; 
+        width: 16%;
+        margin-top: 10%;
+        margin-left: -85%;
+    }
+}
+
 @media (max-width: 460px) {
 
     .mainSquare{
@@ -571,6 +627,13 @@ input[id="menuicon"]:checked + label + div {
         width: 80%;
         height: 7%;
         margin-left: 10%;
+    }
+
+    .roundCheck {
+        height: 1%; 
+        width: 16%;
+        margin-top: 10%;
+        margin-left: -78%;
     }
 
     .font1{
