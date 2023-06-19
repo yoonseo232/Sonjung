@@ -40,6 +40,14 @@
     z-index: 1;
 }
 
+.medal{
+    width: 120px;
+    height: 145px;
+    left: -20%;
+    margin-top: 5%;
+    z-index: 3;
+}
+
 .rose1{
     overflow: scroll;
     width: 31.6%;
@@ -60,15 +68,6 @@
     top: 0%;
     z-index: 4;
     position: fixed;
-}
-
-.rankingCircle{
-    width: 10%;
-    height: 10%;
-    background-color: #fff;
-    border-radius: 50%;
-    border-color: #000;
-    z-index: 15;
 }
 
 input[id="menuicon"] + label{
