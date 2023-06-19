@@ -66,6 +66,25 @@ html{
     z-index: 2;
 }
 
+.roundCheck {
+    height: 80%; 
+    width: 15%;
+    margin-top: 0.8%;
+    margin-left: -69.5%;
+    border: 3px solid black;
+    border-radius: 3em;
+    position: absolute;
+    z-index: 13;
+}
+
+.imgCandycandy{
+    left: 33%;
+    width: 300px;
+    height: 450px;
+    margin-top: 4%;
+    position: relative;
+}
+
 .font1{
     font-family: 나눔명조;
     font-size: 4rem;
@@ -96,6 +115,26 @@ html{
 
 .font2:hover{
     transform: translateY(-10px);
+}
+
+.font3{
+    font-family: 나눔명조;
+    font-size: 2.7rem;
+    display: inline;
+    margin-left: -55%;
+    margin-top: 2%;
+    position: absolute;
+    z-index: 12;
+}
+
+.font4{
+    font-family: 나눔명조;
+    font-size: 1.7rem;
+    display: inline;
+    margin-left: -35%;
+    margin-top: 8%;
+    position: absolute;
+    z-index: 12;
 }
 
 input[id="menuicon"] + label{
@@ -179,24 +218,6 @@ input[id="menuicon"]:checked + label + div {
     margin-top: 5%;
     cursor: pointer;
     z-index: 20;
-}
-
-.roundCheck {
-    height: 80%; 
-    width: 15%;
-    margin-top: 0.8%;
-    margin-left: -69.5%;
-    border: 3px solid black;
-    border-radius: 3em;
-    position: absolute;
-    z-index: 13;
-}
-
-.imgCandycandy{
-    left: 33%;
-    width: 280px;
-    height: 8.3%;
-    position: relative;
 }
 
 @media (max-width: 1240px) {
