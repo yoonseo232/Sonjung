@@ -72,6 +72,14 @@
     z-index: 13;
 }
 
+.wordCandycandy{
+    width: 800px;
+    height: 400px;
+    left: 10%;
+    margin-top: 4%;
+    position: absolute;
+}
+
 .imgCandycandy{
     left: 33%;
     width: 300px;
@@ -79,6 +87,7 @@
     margin-top: 4%;
     position: relative;
 }
+
 
 .font1{
     font-family: 나눔명조;
@@ -225,6 +234,13 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -75%;
     }
 
+    .wordCandycandy{
+        width: 780px;
+        height: auto;
+        left: 10%;
+        margin-top: 4%;
+    }
+
     .font4{
         font-size: 1.7rem;
         margin-left: -28%;
@@ -239,6 +255,13 @@ input[id="menuicon"]:checked + label + div {
         width: 15%;
         margin-top: 0.8%;
         margin-left: -79%;
+    }
+
+    .wordCandycandy{
+        width: 780px;
+        height: auto;
+        left: 3%;
+        margin-top: 4%;
     }
 
     .imgCandycandy{
@@ -295,6 +318,13 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -70%;
     }
 
+    .wordCandycandy{
+        width: 740px;
+        height: auto;
+        left: 5%;
+        margin-top: 4%;
+    }
+
     .font1{
         font-size: 3.5rem;
         left: 36%;
@@ -328,6 +358,13 @@ input[id="menuicon"]:checked + label + div {
         width: 15%;
         margin-top: 0.3%;
         margin-left: -74%;
+    }
+
+    .wordCandycandy{
+        width: 720px;
+        height: auto;
+        left: 3%;
+        margin-top: 4%;
     }
 
     .imgCandycandy{
@@ -395,6 +432,13 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -72%;
     }
 
+    .wordCandycandy{
+        width: 680px;
+        height: auto;
+        left: 3%;
+        margin-top: 4%;
+    }
+
     .font1{
         font-size: 330%;
         left: 34%;
@@ -424,11 +468,18 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -76%;
     }
 
+    .wordCandycandy{
+        width: 600px;
+        height: auto;
+        left: 3%;
+        margin-top: 4%;
+    }
+
     .imgCandycandy{
         left: 25%;
         width: 200px;
         height: 300px;
-        margin-top: 58%;
+        margin-top: 40%;
     }
 
     .font3{
@@ -481,7 +532,13 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 0.3%;
         margin-left: -78%;
     }
-    
+
+    .wordCandycandy{
+        width: 650px;
+        height: auto;
+        left: 3%;
+        margin-top: 4%;
+    }
 
     .font1{
         font-size: 3rem;
@@ -534,11 +591,18 @@ input[id="menuicon"]:checked + label + div {
         padding-top: 0.5%;
     }
 
+    .wordCandycandy{
+        width: 650px;
+        height: auto;
+        left: 5%;
+        margin-top: 4%;
+    }
+
     .imgCandycandy{
         left: 25%;
         width: 200px;
         height: 300px;
-        margin-top: 60%;
+        margin-top: 46%;
     }
 
     .font1{
@@ -606,11 +670,19 @@ input[id="menuicon"]:checked + label + div {
         margin-left: 10%;
     }
 
+    
+    .wordCandycandy{
+        width: 630px;
+        height: auto;
+        left: 3%;
+        margin-top: 4%;
+    }
+
     .imgCandycandy{
         left: 25%;
         width: 200px;
         height: 300px;
-        margin-top: 63%;
+        margin-top: 50%;
     }
 
     .font1{
@@ -649,6 +721,7 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 0.3%;
         margin-left: -82%;
     }
+
 }
 
 @media (max-width: 670px) {
@@ -685,11 +758,18 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -76%;
     }
 
+    .wordCandycandy{
+        width: 600px;
+        height: auto;
+        left: 0%;
+        margin-top: 4%;
+    }
+
     .imgCandycandy{
         left: 0%;
-        width: 240px;
-        height: 360px;
-        margin-top: 68%;
+        width: 230px;
+        height: 345px;
+        margin-top: 53%;
     }
 
     .font1{
@@ -719,12 +799,18 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 0.3%;
         margin-left: -78%;
     }
-
+    .wordCandycandy{
+        width: 550px;
+        height: auto;
+        left: 3%;
+        margin-top: 4%;
+    }
+    
     .imgCandycandy{
         left: 0%;
-        width: 230px;
-        height: 345px;
-        margin-top: 68%;
+        width: 210px;
+        height: 315px;
+        margin-top: 56%;
     }
 
     .font3{
@@ -748,11 +834,18 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -82%;
     }
 
+    .wordCandycandy{
+        width: 520px;
+        height: auto;
+        left: 0%;
+        margin-top: 4%;
+    }
+
     .imgCandycandy{
         left: 0%;
-        width: 210px;
-        height: 315px;
-        margin-top: 72%;
+        width: 200px;
+        height: 300px;
+        margin-top: 56%;
     }
 
     .font3{
@@ -790,6 +883,20 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 23%;
     }
 
+    .wordCandycandy{
+        width: 480px;
+        height: auto;
+        left: 0%;
+        margin-top: 3%;
+    }
+
+    .imgCandycandy{
+        left: 0%;
+        width: 170px;
+        height: 255px;
+        margin-top: 56%;
+    }
+
     .barSquare{
         top: 8%;
         left: 0%;
@@ -814,11 +921,18 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -85%;
     }
 
+    .wordCandycandy{
+        width: 450px;
+        height: auto;
+        left: 0%;
+        margin-top: 0%;
+    }
+
     .imgCandycandy{
         left: 0%;
         width: 200px;
         height: 300px;
-        margin-top: 100%;
+        margin-top: 56%;
     }
 
     .font3{
@@ -856,11 +970,18 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -78%;
     }
 
+    .wordCandycandy{
+        width: 420px;
+        height: auto;
+        left: 0%;
+        margin-top: 0%;
+    }
+
     .imgCandycandy{
         left: 0%;
-        width: 200px;
-        height: 300px;
-        margin-top: 110%;
+        width: 170px;
+        height: 255px;
+        margin-top: 56%;
     }
 
     .font1{
@@ -902,8 +1023,8 @@ input[id="menuicon"]:checked + label + div {
 
     .imgCandycandy{
         left: 0%;
-        width: 200px;
-        height: 300px;
+        width: 170px;
+        height: 255px;
         margin-top: 120%;
     }
 }
