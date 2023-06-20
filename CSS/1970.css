@@ -72,20 +72,36 @@
     z-index: 13;
 }
 
+
+/* 메인 사각형 안 */
 .wordCandycandy{
+    margin-top: 4%;
+}
+
+.wordVersailles{
+    margin-top: 45%;
+}
+
+.wordCandycandy, .wordVersailles{
     width: 800px;
     height: 400px;
     left: 10%;
-    margin-top: 4%;
     position: absolute;
 }
 
 .imgCandycandy{
-    left: 33%;
-    width: 300px;
-    height: 450px;
-    margin-top: 4%;
-    position: relative;
+    margin-top: 6%;
+}
+
+.imgVersailles{
+    margin-top: 47%;
+}
+
+.imgCandycandy, .imgVersailles{
+    width: 250px;
+    height: 375px;  
+    left: 70%;
+    position: absolute;
 }
 
 
@@ -99,6 +115,8 @@
     z-index: 2;
 }
 
+
+/* 폰트 */
 .font2{
     font-family: 나눔명조;
     font-size: 2.5rem;
@@ -234,11 +252,14 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -75%;
     }
 
-    .wordCandycandy{
+    .wordVersailles{
+        margin-top: 45%;
+    }
+
+    .wordCandycandy, .wordVersailles{
         width: 780px;
         height: auto;
         left: 10%;
-        margin-top: 4%;
     }
 
     .font4{
@@ -261,14 +282,11 @@ input[id="menuicon"]:checked + label + div {
         width: 780px;
         height: auto;
         left: 3%;
-        margin-top: 4%;
     }
 
-    .imgCandycandy{
-        left: 33%;
-        width: 280px;
-        height: 420px;
-        margin-top: 4%;
+    .imgCandycandy, .imgVersailles{
+        width: 230px;
+        height: 345px;
     }
 
     .font4{
@@ -318,11 +336,16 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -70%;
     }
 
-    .wordCandycandy{
+    .wordCandycandy, .wordVersailles{
         width: 740px;
         height: auto;
         left: 5%;
-        margin-top: 4%;
+    }
+
+    .imgCandycandy, .imgVersailles{
+        width: 180px;
+        height: 270px;
+        left: 74%;
     }
 
     .font1{
@@ -360,18 +383,10 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -74%;
     }
 
-    .wordCandycandy{
+    .wordCandycandy, .wordVersailles{
         width: 720px;
         height: auto;
         left: 3%;
-        margin-top: 4%;
-    }
-
-    .imgCandycandy{
-        left: 33%;
-        width: 250px;
-        height: 375px;
-        margin-top: 4%;
     }
 
     .font3{
@@ -432,11 +447,10 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -72%;
     }
 
-    .wordCandycandy{
+    .wordCandycandy, .wordVersailles{
         width: 680px;
         height: auto;
         left: 3%;
-        margin-top: 4%;
     }
 
     .font1{
@@ -468,18 +482,10 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -76%;
     }
 
-    .wordCandycandy{
+    .wordCandycandy, .wordVersailles{
         width: 600px;
         height: auto;
         left: 3%;
-        margin-top: 4%;
-    }
-
-    .imgCandycandy{
-        left: 25%;
-        width: 200px;
-        height: 300px;
-        margin-top: 40%;
     }
 
     .font3{
@@ -533,11 +539,16 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -78%;
     }
 
-    .wordCandycandy{
+    .wordCandycandy, .wordVersailles{
         width: 650px;
         height: auto;
         left: 3%;
-        margin-top: 4%;
+    }
+
+    .imgCandycandy, .imgVersailles{
+        width: 130px;
+        height: 195px;
+        left: 78%;
     }
 
     .font1{
@@ -591,18 +602,28 @@ input[id="menuicon"]:checked + label + div {
         padding-top: 0.5%;
     }
 
-    .wordCandycandy{
+    .wordVersailles{
+        padding-top: 3%;
+    }
+
+    .wordCandycandy, .wordVersailles{
         width: 650px;
         height: auto;
         left: 5%;
-        margin-top: 4%;
     }
 
     .imgCandycandy{
-        left: 25%;
-        width: 200px;
-        height: 300px;
-        margin-top: 46%;
+        margin-top: 15%;
+    }
+
+    .imgVersailles{
+        margin-top: 58%;
+    }
+
+    .imgCandycandy, .imgVersailles{
+        width: 80px;
+        height: 120px;
+        left: 85%;
     }
 
     .font1{
@@ -670,19 +691,18 @@ input[id="menuicon"]:checked + label + div {
         margin-left: 10%;
     }
 
+    .wordVersailles{
+        padding-top: 5%;
+    }
     
-    .wordCandycandy{
+    .wordCandycandy, .wordVersailles{
         width: 630px;
         height: auto;
         left: 3%;
-        margin-top: 4%;
     }
 
-    .imgCandycandy{
-        left: 25%;
-        width: 200px;
-        height: 300px;
-        margin-top: 50%;
+    .imgCandycandy, .imgVersailles{
+        display: none;
     }
 
     .font1{
@@ -758,18 +778,14 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -76%;
     }
 
-    .wordCandycandy{
+    .wordVersailles{
+        padding-top: 8%;
+    }
+
+    .wordCandycandy, .wordVersailles{
         width: 600px;
         height: auto;
         left: 0%;
-        margin-top: 4%;
-    }
-
-    .imgCandycandy{
-        left: 0%;
-        width: 230px;
-        height: 345px;
-        margin-top: 53%;
     }
 
     .font1{
@@ -803,14 +819,6 @@ input[id="menuicon"]:checked + label + div {
         width: 550px;
         height: auto;
         left: 3%;
-        margin-top: 4%;
-    }
-    
-    .imgCandycandy{
-        left: 0%;
-        width: 210px;
-        height: 315px;
-        margin-top: 56%;
     }
 
     .font3{
@@ -834,18 +842,14 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -82%;
     }
 
-    .wordCandycandy{
+    .wordVersailles{
+        padding-top: 10%;
+    }
+
+    .wordCandycandy, .wordVersailles{
         width: 520px;
         height: auto;
         left: 0%;
-        margin-top: 4%;
-    }
-
-    .imgCandycandy{
-        left: 0%;
-        width: 200px;
-        height: 300px;
-        margin-top: 56%;
     }
 
     .font3{
@@ -883,18 +887,10 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 23%;
     }
 
-    .wordCandycandy{
+    .wordCandycandy, .wordVersailles{
         width: 480px;
         height: auto;
         left: 0%;
-        margin-top: 3%;
-    }
-
-    .imgCandycandy{
-        left: 0%;
-        width: 170px;
-        height: 255px;
-        margin-top: 56%;
     }
 
     .barSquare{
@@ -921,18 +917,14 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -85%;
     }
 
-    .wordCandycandy{
+    .wordVersailles{
+        padding-top: 12%;
+    }
+
+    .wordCandycandy, .wordVersailles{
         width: 450px;
         height: auto;
         left: 0%;
-        margin-top: 0%;
-    }
-
-    .imgCandycandy{
-        left: 0%;
-        width: 200px;
-        height: 300px;
-        margin-top: 56%;
     }
 
     .font3{
@@ -970,18 +962,10 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -78%;
     }
 
-    .wordCandycandy{
+    .wordCandycandy, .wordVersailles{
         width: 420px;
         height: auto;
         left: 0%;
-        margin-top: 0%;
-    }
-
-    .imgCandycandy{
-        left: 0%;
-        width: 170px;
-        height: 255px;
-        margin-top: 56%;
     }
 
     .font1{
@@ -1019,13 +1003,6 @@ input[id="menuicon"]:checked + label + div {
     .mainSquare{
         top: 8%;
         margin-top: 23%;
-    }
-
-    .imgCandycandy{
-        left: 0%;
-        width: 170px;
-        height: 255px;
-        margin-top: 120%;
     }
 }
 
@@ -1066,13 +1043,6 @@ input[id="menuicon"]:checked + label + div {
         width: 16%;
         margin-top: 10%;
         margin-left: -83%;
-    }
-
-    .imgCandycandy{
-        left: 0%;
-        width: 180px;
-        height: 270px;
-        margin-top: 130%;
     }
 
 }
