@@ -82,7 +82,11 @@
     margin-top: 45%;
 }
 
-.wordCandycandy, .wordVersailles{
+.wordGlassMask{
+    margin-top: 96%;
+}
+
+.wordCandycandy, .wordVersailles, .wordGlassMask{
     width: 800px;
     height: 400px;
     left: 10%;
@@ -97,7 +101,11 @@
     margin-top: 47%;
 }
 
-.imgCandycandy, .imgVersailles{
+.imgGlassMask{
+    margin-top: 97%;
+}
+
+.imgCandycandy, .imgVersailles, .imgGlassMask{
     width: 250px;
     height: 375px;  
     left: 70%;
