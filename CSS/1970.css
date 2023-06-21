@@ -40,7 +40,7 @@
     left: 3%;
     top: -1%;
     width: 85%;
-    height: 600%;
+    height: 350%;
     margin-left: 4.5%;
     margin-top: 16%;
     position: absolute;
@@ -74,38 +74,46 @@
 
 
 /* 메인 사각형 안 */
-.wordCandycandy{
+.word1{
     margin-top: 4%;
 }
 
-.wordVersailles{
+.word2{
     margin-top: 45%;
 }
 
-.wordGlassMask{
-    margin-top: 96%;
+.word3{
+    margin-top: 93%;
 }
 
-.wordCandycandy, .wordVersailles, .wordGlassMask{
+.word4{
+    margin-top: 145%;
+}
+
+.word1, .word2, .word3, .word4{
     width: 800px;
     height: 400px;
     left: 10%;
     position: absolute;
 }
 
-.imgCandycandy{
+.img1{
     margin-top: 6%;
 }
 
-.imgVersailles{
+.img2{
     margin-top: 47%;
 }
 
-.imgGlassMask{
-    margin-top: 97%;
+.img3{
+    margin-top: 95%;
 }
 
-.imgCandycandy, .imgVersailles, .imgGlassMask{
+.img4{
+    margin-top: 148%;
+}
+
+.img1, .img2, .img3, .img4{
     width: 250px;
     height: 375px;  
     left: 70%;
@@ -260,14 +268,19 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -75%;
     }
 
-    .wordVersailles{
-        margin-top: 45%;
-    }
 
-    .wordCandycandy, .wordVersailles{
+    .word1, .word2.word3{
         width: 780px;
         height: auto;
-        left: 10%;
+        left: 4%;
+    }
+
+    .word2{
+        margin-top: 50%;
+    }
+
+    .word3{
+        left: 4%
     }
 
     .font4{
@@ -286,15 +299,19 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -79%;
     }
 
-    .wordCandycandy{
+    .word1, .word3, .word2{
         width: 780px;
         height: auto;
         left: 3%;
     }
 
-    .imgCandycandy, .imgVersailles{
+    .img2, .img2, .img3{
         width: 230px;
         height: 345px;
+    }
+
+    .img2{
+        margin-top: 52%;
     }
 
     .font4{
@@ -344,13 +361,13 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -70%;
     }
 
-    .wordCandycandy, .wordVersailles{
+    .word1, .word2, .word3{
         width: 740px;
         height: auto;
         left: 5%;
     }
 
-    .imgCandycandy, .imgVersailles{
+    .img1, .img2, .img3{
         width: 180px;
         height: 270px;
         left: 74%;
@@ -391,7 +408,7 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -74%;
     }
 
-    .wordCandycandy, .wordVersailles{
+    .word1, .word2, .word3{
         width: 720px;
         height: auto;
         left: 3%;
@@ -455,7 +472,7 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -72%;
     }
 
-    .wordCandycandy, .wordVersailles{
+    .word1, .word2, .word3{
         width: 680px;
         height: auto;
         left: 3%;
@@ -490,7 +507,7 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -76%;
     }
 
-    .wordCandycandy, .wordVersailles{
+    .word1, .word2, .word3{
         width: 600px;
         height: auto;
         left: 3%;
@@ -547,13 +564,13 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -78%;
     }
 
-    .wordCandycandy, .wordVersailles{
+    .word1, .word2, .word3{
         width: 650px;
         height: auto;
         left: 3%;
     }
 
-    .imgCandycandy, .imgVersailles{
+    .img1, .img2, .img3{
         width: 130px;
         height: 195px;
         left: 78%;
@@ -610,25 +627,33 @@ input[id="menuicon"]:checked + label + div {
         padding-top: 0.5%;
     }
 
-    .wordVersailles{
+    .word2{
         padding-top: 3%;
     }
 
-    .wordCandycandy, .wordVersailles{
+    .word3{
+        padding-top: 13%;
+    }
+
+    .word1, .word2, .word3{
         width: 650px;
         height: auto;
         left: 5%;
     }
 
-    .imgCandycandy{
+    .img1{
         margin-top: 15%;
     }
 
-    .imgVersailles{
+    .img2{
         margin-top: 58%;
     }
 
-    .imgCandycandy, .imgVersailles{
+    .img3{
+        margin-top: 110%;
+    }
+
+    .img1, .img2, .img3{
         width: 80px;
         height: 120px;
         left: 85%;
@@ -699,17 +724,21 @@ input[id="menuicon"]:checked + label + div {
         margin-left: 10%;
     }
 
-    .wordVersailles{
+    .word2{
         padding-top: 5%;
     }
     
-    .wordCandycandy, .wordVersailles{
+    .word3{
+        padding-top: 20%;
+    }
+
+    .word1, .word2, .word3, .word4{
         width: 630px;
         height: auto;
         left: 3%;
     }
 
-    .imgCandycandy, .imgVersailles{
+    .img1, .img2, .img3, .img4{
         display: none;
     }
 
@@ -786,11 +815,15 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -76%;
     }
 
-    .wordVersailles{
+    .word2{
         padding-top: 8%;
     }
 
-    .wordCandycandy, .wordVersailles{
+    .word3{
+        padding-top: 23%;
+    }
+
+    .word1, .word2, .word3{
         width: 600px;
         height: auto;
         left: 0%;
@@ -823,7 +856,7 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 0.3%;
         margin-left: -78%;
     }
-    .wordCandycandy{
+    .word1{
         width: 550px;
         height: auto;
         left: 3%;
@@ -850,11 +883,15 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -82%;
     }
 
-    .wordVersailles{
+    .word2{
         padding-top: 10%;
     }
 
-    .wordCandycandy, .wordVersailles{
+    .word3{
+        padding-top: 27%;
+    }
+
+    .word1, .word2, .word3{
         width: 520px;
         height: auto;
         left: 0%;
@@ -895,7 +932,7 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 23%;
     }
 
-    .wordCandycandy, .wordVersailles{
+    .word1, .word2, .word3{
         width: 480px;
         height: auto;
         left: 0%;
@@ -925,11 +962,16 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -85%;
     }
 
-    .wordVersailles{
+    .word2{
         padding-top: 12%;
     }
 
-    .wordCandycandy, .wordVersailles{
+    .word3{
+        padding-top: 34%;
+    }
+
+
+    .word1, .word2, .word3{
         width: 450px;
         height: auto;
         left: 0%;
@@ -970,7 +1012,7 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -78%;
     }
 
-    .wordCandycandy, .wordVersailles{
+    .word1, .word2, .word3{
         width: 420px;
         height: auto;
         left: 0%;
