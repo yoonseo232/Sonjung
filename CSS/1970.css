@@ -134,6 +134,14 @@
     transition: all 0.4s;
 }
 
+.font2-1{
+    font-family: 나눔명조;
+    font-size: 2.5rem;
+    display: inline;
+    margin-top: 0.08em;
+    margin-left: 0.01em;
+    cursor: pointer;
+}
 
 .font2{
     font-family: 나눔명조;
@@ -141,15 +149,6 @@
     display: inline;
     margin-top: 0.08em;
     margin-left: 1.5em;
-    cursor: pointer;
-}
-
-.font2-1{
-    font-family: 나눔명조;
-    font-size: 2.5rem;
-    display: inline;
-    margin-top: 0.08em;
-    margin-left: 0.01em;
     cursor: pointer;
 }
 
@@ -164,7 +163,7 @@ input[id="menuicon"] + label{
     margin: 3em;
     width: 3em;
     height: 2.6em;
-    right: 0%;
+    right: 0em;
     top:calc(7% - 25px);
     z-index: 10;
     cursor:pointer;
@@ -317,7 +316,6 @@ input[id="menuicon"]:checked + label + div {
     }
     
     .rose2{
-        overflow: scroll;
         width: 24em;
         left: 52em;
         top: 0em;
@@ -364,7 +362,6 @@ input[id="menuicon"]:checked + label + div {
     }
     
     .rose2{
-        overflow: scroll;
         width: 22em;
         left: 49em;
         top: 0em;
@@ -411,7 +408,6 @@ input[id="menuicon"]:checked + label + div {
     }
     
     .rose2{
-        overflow: scroll;
         width: 22em;
         left: 46em;
         top: 0em;
@@ -464,61 +460,702 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-width: 980px){
-   
+    .logo{
+        width: 9em;
+        left: -24em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        width: 22em;
+        top: 30em;
+    }
     
-}
+    .rose2{
+        width: 22em;
+        left: 41em;
+        top: 0em;
+    }
 
-@media (max-width: 930px) {
+    .barSquare{
+        width: 43em;
+        left: 8.3em;
+    }
+
+    .mainSquare{
+        width: 52em;
+        height: 130em;
+        left: 1.1em;
+        top: 5em;
+    }
+
+    .roundCheck {
+        height: 2.8em; 
+        width: 6.6em;
+        margin-top: 0.38em;
+        margin-left: -29.3em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 40em;
+        left: 2em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 11em; 
+        left: 38em;
+    }
+
+    .font1{
+        font-size: 3.5rem;
+        left: 5em;
+    }
+
+    .font2{
+        font-size: 2rem;
+        margin-top: 0.2em;
+        margin-left: 1.5em;
+    }
     
+    .font2-1{
+        font-size: 2rem;
+        margin-top: 0.2em;
+        margin-left: 0.01em;
+    }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
+    .logo{
+        width: 9em;
+        left: -23.3em;
+        top: 0.6em;
+    }
 
-
-}
-
-@media (max-width: 760px) {
-   
-
-}
-@media (max-width: 680px){
+    .rose1{
+        width: 22em;
+        top: 32em;
+    }
     
+    .rose2{
+        width: 22em;
+        left: 38em;
+        top: 0em;
+    }
 
-}
+    .barSquare{
+        width: 40em;
+        left: 8.3em;
+        top: 7.5em;
+    }
 
-@media (max-width: 670px) {
-   
+    .mainSquare{
+        width: 49em;
+        height: 130em;
+        left: 1em;
+        top: 5em;
+    }
 
-}
+    .roundCheck {
+        height: 2.8em; 
+        width: 6.6em;
+        margin-top: 0.38em;
+        margin-left: -29.3em;
+    }
 
-@media (max-width: 640px) {
+    .word1, .word2, .word3, .word4{
+        width: 37em;
+        left: 2em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 11em; 
+        left: 36em;
+    }
+
+    .font1{
+        font-size: 3.2rem;
+        left: 5.3em;
+    }
+
+    .font2{
+        font-size: 2rem;
+        margin-top: 0.2em;
+        margin-left: 1.5em;
+    }
     
+    .font2-1{
+        font-size: 2rem;
+        margin-top: 0.2em;
+        margin-left: 0.01em;
+    }
+
+    input[id="menuicon"] + label{
+        margin: 2em;
+        width: 1em;
+        height: 2.3em;
+        right: 2em;
+        top:calc(7% - 25px);
+    }
+
+    input[id="menuicon"] + label span{
+        width: 2.7em;
+        height: 0.3em;
+    }
+
+    .sidebar {
+        width: 14em;
+        height: 100%;
+        top:0;
+        right: -30em;
+    }
 }
 
-@media (max-width: 610px) {
+@media (max-width: 800px) {
+    .logo{
+        width: 8em;
+        left: -20em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        width: 22em;
+        top: 32em;
+    }
     
-}
+    .rose2{
+        width: 22em;
+        left: 32em;
+        top: 0em;
+    }
 
-@media (max-width: 550px) {
-   
+    .barSquare{
+        width: 36em;
+        left: 6em;
+        top: 7.5em;
+    }
 
-}
+    .mainSquare{
+        width: 44em;
+        height: 130em;
+        left: 0em;
+        top: 5em;
+    }
 
-@media (max-width: 490px){
+    .roundCheck {
+        height: 2.8em; 
+        width: 6em;
+        margin-top: 0.38em;
+        margin-left: -29.3em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 37em;
+        left: 1em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 9em; 
+        left: 32em;
+    }
+
+    .font1{
+        font-size: 2.7rem;
+        left: 5.3em;
+        top: 1em;
+    }
+
+    .font2{
+        font-size: 2rem;
+        margin-top: 0.2em;
+        margin-left: 1.5em;
+    }
     
-}
-
-@media (max-width: 460px) {
-
-   
-
-}
-
-@media (max-width: 420px) {
+    .font2-1{
+        font-size: 2rem;
+        margin-top: 0.2em;
+        margin-left: 0.01em;
+    }
 
 }
 
-@media (max-width: 380px) {
+@media (max-width: 700px){
+    .logo{
+        width: 8em;
+        left: -16em;
+        top: 0.6em;
+    }
 
+    .rose1{
+        width: 18em;
+        top: 35em;
+    }
+    
+    .rose2{
+        width: 18em;
+        left: 27.2em;
+        top: 0em;
+    }
 
+    .barSquare{
+        width: 32em;
+        left: 4.5em;
+        top: 7.5em;
+    }
+
+    .mainSquare{
+        width: 37.5em;
+        height: 130em;
+        left: 0em;
+        top: 6em;
+    }
+
+    .roundCheck {
+        height: 2.6em; 
+        width: 5em;
+        margin-top: 0.38em;
+        margin-left: -26em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 36em;
+        left: 1em;
+    }
+
+    .img1{
+        margin-top: 20em;
+    }
+    
+    .img2{
+        margin-top: 51em;
+    }
+    
+    .img3{
+        margin-top: 81em;
+    }
+
+    .img4{
+        margin-top: 111em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 8em; 
+        left: 2em;
+    }
+
+    .font1{
+        font-size: 2.6rem;
+        left: 4.5em;
+        top: 1em;
+    }
+
+    .font2{
+        font-size: 1.8rem;
+        margin-top: 0.2em;
+        margin-left: 1.5em;
+    }
+    
+    .font2-1{
+        font-size: 1.8rem;
+        margin-top: 0.2em;
+        margin-left: 0.01em;
+    }
+}
+
+@media (max-width: 600px){
+    .logo{
+        width: 8em;
+        left: -14em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        width: 18em;
+        top: 35em;
+    }
+    
+    .rose2{
+        width: 18em;
+        left: 23em;
+        top: 0em;
+    }
+
+    .barSquare{
+        width: 29em;
+        height: 3.8em;
+        left: 4em;
+        top: 7.5em;
+    }
+
+    .mainSquare{
+        width: 33.2em;
+        height: 130em;
+        left: 0em;
+        top: 7em;
+    }
+
+    .roundCheck {
+        height: 2.6em; 
+        width: 5em;
+        margin-top: 0.38em;
+        margin-left: -22em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 35em;
+        left: 1em;
+    }
+
+    .img1{
+        margin-top: 20em;
+    }
+    
+    .img2{
+        margin-top: 51em;
+    }
+    
+    .img3{
+        margin-top: 81em;
+    }
+
+    .img4{
+        margin-top: 111em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 7em; 
+        left: 2em;
+    }
+
+    .font1{
+        font-size: 2.3rem;
+        left: 4.5em;
+        top: 1em;
+    }
+
+    .font2{
+        font-size: 1.5rem;
+        margin-top: 0.4em;
+        margin-left: 1.5em;
+    }
+    
+    .font2-1{
+        font-size: 1.5rem;
+        margin-top: 0.4em;
+        margin-left: 0.01em;
+    }
+}
+
+@media (max-width: 500px){
+    .logo{
+        width: 6.5em;
+        left: -11em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        display: none;
+    }
+    
+    .rose2{
+        display: none;
+    }
+
+    .barSquare{
+        width: 26.8em;
+        height: 3.8em;
+        left: 2em;
+        top: 6.8em;
+    }
+
+    .mainSquare{
+        width: 28em;
+        height: 130em;
+        left: 0em;
+        top: 7em;
+    }
+
+    .roundCheck {
+        height: 2.6em; 
+        width: 5em;
+        margin-top: 0.38em;
+        margin-left: -21.7em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 33.5em;
+        left: 0em;
+    }
+
+    .img1{
+        margin-top: 20em;
+    }
+    
+    .img2{
+        margin-top: 51em;
+    }
+    
+    .img3{
+        margin-top: 81em;
+    }
+
+    .img4{
+        margin-top: 111em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 7em; 
+        left: 1em;
+    }
+
+    .font1{
+        font-size: 2.3rem;
+        left: 3em;
+        top: 1em;
+    }
+
+    .font2{
+        font-size: 1.5rem;
+        margin-top: 0.4em;
+        margin-left: 1.5em;
+    }
+    
+    .font2-1{
+        font-size: 1.5rem;
+        margin-top: 0.4em;
+        margin-left: 0.01em;
+    }
+}
+
+@media (max-width: 415px) {
+    .logo{
+        width: 6em;
+        left: -9.8em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        display: none;
+    }
+    
+    .rose2{
+        display: none;
+    }
+
+    .barSquare{
+        width: 23em;
+        height: 3.8em;
+        left: 1.6em;
+        top: 6.3em;
+    }
+
+    .mainSquare{
+        width: 23em;
+        height: 130em;
+        left: 0.4em;
+        top: 7em;
+    }
+
+    .roundCheck {
+        height: 2.6em; 
+        width: 4.3em;
+        margin-top: 0.38em;
+        margin-left: -18.5em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 28em;
+        left: 0em;
+    }
+
+    .img1{
+        margin-top: 20em;
+    }
+    
+    .img2{
+        margin-top: 51em;
+    }
+    
+    .img3{
+        margin-top: 81em;
+    }
+
+    .img4{
+        margin-top: 111em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 6em; 
+        left: 1em;
+    }
+
+    .font1{
+        font-size: 2rem;
+        left: 3em;
+        top: 1em;
+    }
+
+    .font2{
+        font-size: 1.5rem;
+        margin-top: 0.4em;
+        margin-left: 1em;
+    }
+    
+    .font2-1{
+        font-size: 1.5rem;
+        margin-top: 0.4em;
+        margin-left: 0.01em;
+    }
+
+    input[id="menuicon"] + label{
+        margin: 0em;
+        width: 1em;
+        height: 2em;
+        right: 9em;
+        top:calc(7% - 25px);
+    }
+
+    input[id="menuicon"] + label span{
+        width: 2em;
+        height: 0.3em;
+    }
+
+    .sidebar {
+        width: 14em;
+        height: 100%;
+        top:0;
+        right: -30em;
+    }
+}
+
+@media (max-width: 376px) {
+    .logo{
+        width: 5.6em;
+        left: -8.8em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        display: none;
+    }
+    
+    .rose2{
+        display: none;
+    }
+
+    .barSquare{
+        width: 20.6em;
+        height: 3.8em;
+        left: 1.5em;
+        top: 6.3em;
+    }
+
+    .mainSquare{
+        width: 20.6em;
+        height: 130em;
+        left: 0.4em;
+        top: 7em;
+    }
+
+    .roundCheck {
+        height: 2.3em; 
+        width: 4.1em;
+        margin-top: 0.38em;
+        margin-left: -16.3em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 24em;
+        left: 0em;
+    }
+
+    .img1{
+        margin-top: 20em;
+    }
+    
+    .img2{
+        margin-top: 51em;
+    }
+    
+    .img3{
+        margin-top: 81em;
+    }
+
+    .img4{
+        margin-top: 111em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 6em; 
+        left: 1em;
+    }
+
+    .font1{
+        font-size: 1.8rem;
+        left: 3em;
+        top: 1.4em;
+    }
+
+    .font2{
+        font-size: 1.3rem;
+        margin-top: 0.4em;
+        margin-left: 1em;
+    }
+    
+    .font2-1{
+        font-size: 1.3rem;
+        margin-top: 0.4em;
+        margin-left: 0.01em;
+    }
+
+    input[id="menuicon"] + label{
+        margin: 0em;
+        width: 1em;
+        height: 2em;
+        right: 9em;
+        top:calc(7% - 25px);
+    }
+
+    input[id="menuicon"] + label span{
+        width: 2em;
+        height: 0.3em;
+    }
+
+    .sidebar {
+        width: 13em;
+        height: 100%;
+        top:0;
+        right: -50em;
+    }
+
+    .menuFont1{
+        font-size: 1rem;
+        margin-top: 1em;
+        margin-left: -5em;
+    }
+    
+    .menuFont2{
+        font-size: 1rem;
+        margin-top: 1em;
+        margin-left: -5em;
+    }
+}
+
+@media (max-height: 735px){
+    .rose1{
+        display: none;
+    }
+
+    .rose2{
+        display: none;
+    }
+}
+
+@media (min-height: 737px){
+    .rose1{
+        display: none;
+    }
+
+    .rose2{
+        display: none;
+    }
 }
