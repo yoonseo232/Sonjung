@@ -120,11 +120,12 @@
     position: absolute;
 }
 
+/* 폰트 */
 
 .font1{
     font-family: 나눔명조;
     font-size: 4rem;
-    left: 37%;
+    left: 36%;
     top: 5%;
     display: inline;
     position: absolute;
@@ -132,7 +133,6 @@
 }
 
 
-/* 폰트 */
 .font2{
     font-family: 나눔명조;
     font-size: 2.5rem;
@@ -260,16 +260,64 @@ input[id="menuicon"]:checked + label + div {
     z-index: 20;
 }
 
-@media (max-width: 1400px){
+
+
+@media (min-width: 1401px){
+    .rose1{
+        display: none;
+    }
+    .rose2{
+        display: none;
+    }
+
+    .roundCheck {
+        height: 80%; 
+        width: 15%;
+        margin-top: 0.6%;
+        margin-left: -66%;
+    }
+    
+    .font2{
+        font-size: 3rem;
+        margin-top: 1%;
+        margin-left: 7%;
+    }
+    
+    .font2-1{
+        font-size: 3rem;
+        margin-top: 1%;
+        margin-left: 0.1%;
+    }
+
+    .mainSquare{
+        height: 320%;
+        top: 7%;
+    }
+
+    .sidebar {
+        width:250px;
+        height:25%;
+        top:5;
+        right:26%;
+        position: fixed;
+    }
+     
+    input[id="menuicon"]:checked + label + div {
+        right:0;
+    }   
+}
+
+
+@media (min-width: 1400px){
     .roundCheck {
         height: 80%; 
         width: 15%;
         margin-top: 0.8%;
-        margin-left: -75%;
+        margin-left: -78%;
     }
 
 
-    .word1, .word2.word3{
+    .word1, .word2, .word3, .word4{
         width: 780px;
         height: auto;
         left: 4%;
@@ -291,6 +339,75 @@ input[id="menuicon"]:checked + label + div {
     
 }
 
+@media(min-width:1450px){
+    .roundCheck {
+        height: 80%; 
+        width: 17%;
+        margin-top: 0.8%;
+        margin-left: -76%;
+    }
+}
+
+@media(min-width:1600px){
+    .roundCheck {
+        height: 80%; 
+        width: 15%;
+        margin-top: 0.8%;
+        margin-left: -76%;
+    }
+}
+
+@media(min-width:1700px){
+    .roundCheck {
+        height: 80%; 
+        width: 15%;
+        margin-top: 0.8%;
+        margin-left: -68%;
+    }
+}
+
+@media(min-width:1920px){
+
+    .roundCheck {
+        height: 80%; 
+        width: 15%;
+        margin-top: 0.8%;
+        margin-left: -65.5%;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 1000px;
+        height: 500px;
+        left: 10%;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 300px;
+        height: 450px;  
+        left: 70%;
+    }
+
+    .font1{
+        font-size: 5rem;
+        left: 36%;
+        top: 5%;
+        z-index: 2;
+    }
+
+    .font2{
+        font-size: 3rem;
+        margin-top: 0.8%;
+        margin-left: 7%;
+    }
+    
+    .font2-1{
+        font-size: 3rem;
+        margin-top: 0.8%;
+        margin-left: 0.1%;
+    }
+}
+
+
 @media (max-width: 1290px){
     .roundCheck {
         height: 80%; 
@@ -299,13 +416,13 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -79%;
     }
 
-    .word1, .word3, .word2{
+    .word1, .word2, .word3, .word4{
         width: 780px;
         height: auto;
         left: 3%;
     }
 
-    .img2, .img2, .img3{
+    .img2, .img2, .img3, .img4{
         width: 230px;
         height: 345px;
     }
@@ -361,13 +478,13 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -70%;
     }
 
-    .word1, .word2, .word3{
+    .word1, .word2, .word3, .word4{
         width: 740px;
         height: auto;
         left: 5%;
     }
 
-    .img1, .img2, .img3{
+    .img1, .img2, .img3, .img4{
         width: 180px;
         height: 270px;
         left: 74%;
@@ -375,7 +492,7 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 3.5rem;
-        left: 36%;
+        left: 35%;
         top: 5%;
         z-index: 2;
     }
@@ -408,7 +525,7 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -74%;
     }
 
-    .word1, .word2, .word3{
+    .word1, .word2, .word3, .word4{
         width: 720px;
         height: auto;
         left: 3%;
@@ -472,7 +589,7 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -72%;
     }
 
-    .word1, .word2, .word3{
+    .word1, .word2, .word3, .word4{
         width: 680px;
         height: auto;
         left: 3%;
@@ -480,7 +597,7 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 330%;
-        left: 34%;
+        left: 33%;
         top: 5%;
         z-index: 2;
     }
@@ -507,7 +624,7 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -76%;
     }
 
-    .word1, .word2, .word3{
+    .word1, .word2, .word3, .word4{
         width: 600px;
         height: auto;
         left: 3%;
@@ -564,13 +681,13 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -78%;
     }
 
-    .word1, .word2, .word3{
+    .word1, .word2, .word3, .word4{
         width: 650px;
         height: auto;
         left: 3%;
     }
 
-    .img1, .img2, .img3{
+    .img1, .img2, .img3, .img4{
         width: 130px;
         height: 195px;
         left: 78%;
@@ -578,7 +695,7 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 3rem;
-        left: 34%;
+        left: 33%;
         top: 5%;
     }
 
@@ -635,7 +752,11 @@ input[id="menuicon"]:checked + label + div {
         padding-top: 13%;
     }
 
-    .word1, .word2, .word3{
+    .word4{
+        padding-top: 23%;
+    }
+
+    .word1, .word2, .word3, .word4{
         width: 650px;
         height: auto;
         left: 5%;
@@ -653,7 +774,11 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 110%;
     }
 
-    .img1, .img2, .img3{
+    .img4{
+        margin-top: 180%;
+    }
+
+    .img1, .img2, .img3, .img4{
         width: 80px;
         height: 120px;
         left: 85%;
@@ -661,7 +786,7 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 2.8rem;
-        left: 34%;
+        left: 33%;
         top: 5%;
     }
 
@@ -732,6 +857,10 @@ input[id="menuicon"]:checked + label + div {
         padding-top: 20%;
     }
 
+    .word4{
+        padding-top: 32%;
+    }
+
     .word1, .word2, .word3, .word4{
         width: 630px;
         height: auto;
@@ -744,7 +873,7 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 2.8rem;
-        left: 32%;
+        left: 31%;
         top: 5%;
     }
 
@@ -823,7 +952,7 @@ input[id="menuicon"]:checked + label + div {
         padding-top: 23%;
     }
 
-    .word1, .word2, .word3{
+    .word1, .word2, .word3, .word4{
         width: 600px;
         height: auto;
         left: 0%;
@@ -831,7 +960,7 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 2.7rem;
-        left: 29%;
+        left: 28%;
         top: 5%;
     }
     
@@ -891,7 +1020,11 @@ input[id="menuicon"]:checked + label + div {
         padding-top: 27%;
     }
 
-    .word1, .word2, .word3{
+    .word4{
+        padding-top: 35%
+    }
+
+    .word1, .word2, .word3, .word4{
         width: 520px;
         height: auto;
         left: 0%;
@@ -932,7 +1065,7 @@ input[id="menuicon"]:checked + label + div {
         margin-top: 23%;
     }
 
-    .word1, .word2, .word3{
+    .word1, .word2, .word3, .word4{
         width: 480px;
         height: auto;
         left: 0%;
@@ -948,7 +1081,7 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 2.6rem;
-        left: 26%;
+        left: 25%;
         top: 5%;
     }
 
@@ -970,8 +1103,11 @@ input[id="menuicon"]:checked + label + div {
         padding-top: 34%;
     }
 
+    .word4{
+        padding-top: 45%;
+    }
 
-    .word1, .word2, .word3{
+    .word1, .word2, .word3, .word4{
         width: 450px;
         height: auto;
         left: 0%;
@@ -1012,7 +1148,7 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -78%;
     }
 
-    .word1, .word2, .word3{
+    .word1, .word2, .word3, .word4{
         width: 420px;
         height: auto;
         left: 0%;
@@ -1020,7 +1156,7 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 2.3rem;
-        left: 26%;
+        left: 25%;
         top: 5%;
     }
 
@@ -1060,7 +1196,7 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 2rem;
-        left: 27%;
+        left: 26%;
         top: 5%;
     }
 
@@ -1093,6 +1229,12 @@ input[id="menuicon"]:checked + label + div {
         width: 16%;
         margin-top: 10%;
         margin-left: -83%;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 350px;
+        height: auto;
+        left: 0%;
     }
 
 }
