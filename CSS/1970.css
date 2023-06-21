@@ -1,8 +1,8 @@
+
 .logo{
-    width: 15%;
-    height: 100%;
-    left: -43%;
-    top: 22%;
+    width: 11em;
+    left: -35em;
+    top: 1em;
     position : relative;
     z-index: 6;
     cursor: pointer;
@@ -14,110 +14,111 @@
 
 .rose1{
     overflow: scroll;
-    width: 30%;
-    height: 48%;
-    left: 0%;
-    top: 55%;
+    width: 26em;
+    left: 0em;
+    top: 26em;
     position: absolute;
     position: fixed;
     z-index: 4;
+    transition: all 0.4s;
 }
 
 .rose2{
     overflow: scroll;
-    width: 33%;
-    height: 41%;
-    left: 72%;
-    top: 0%;
+    width: 26em;
+    left: 70em;
+    top: 0em;
     z-index: 4;
     position: fixed;
+    transition: all 0.4s;
 }
 
 .mainSquare{
-    border-width: 3%;
+    border-width: 0.2em;
     border-color: black;
     border-style: solid;
-    left: 3%;
-    top: -1%;
-    width: 85%;
-    height: 350%;
+    left: 3em;
+    top: 0em;
+    width: 80.3em;
+    height: 140em;
     margin-left: 4.5%;
     margin-top: 16%;
     position: absolute;
     z-index: 1;
+    transition: all 0.4s;
 }
 
 .barSquare{
-    border-width: 3%;
+    border-width: 0.2em;
     border-color: black;
     border-style: solid;
-    top: 3%;
-    left: 8%;
-    width: 55%;
-    height: 9%;
-    margin-top: 8%;
-    margin-left: 14%;
+    top: 9em;
+    left: 21em;
+    width: 53em;
+    height: 4.2em;
     position: absolute;
     z-index: 2;
+    transition: all 0.4s;
 }
 
 .roundCheck {
-    height: 80%; 
-    width: 15%;
-    margin-top: 0.8%;
-    margin-left: -69.5%;
+    height: 3.1em; 
+    width: 8.2em;
+    margin-top: 0.38em;
+    margin-left: -36.5em;
     border: 3px solid black;
     border-radius: 3em;
     position: absolute;
     z-index: 13;
+    transition: all 0.4s;
 }
 
 
 /* 메인 사각형 안 */
 .word1{
-    margin-top: 4%;
+    margin-top: 5em;
 }
 
 .word2{
-    margin-top: 45%;
+    margin-top: 35em;
 }
 
 .word3{
-    margin-top: 93%;
+    margin-top: 65em;
 }
 
 .word4{
-    margin-top: 145%;
+    margin-top: 95em;
 }
 
 .word1, .word2, .word3, .word4{
-    width: 800px;
-    height: 400px;
-    left: 10%;
+    width: 50em;
+    left: 6em;
     position: absolute;
+    transition: all 0.4s;
 }
 
 .img1{
-    margin-top: 6%;
+    margin-top: 5em;
 }
 
 .img2{
-    margin-top: 47%;
+    margin-top: 35em;
 }
 
 .img3{
-    margin-top: 95%;
+    margin-top: 65em;
 }
 
 .img4{
-    margin-top: 148%;
+    margin-top: 95em;
 }
 
 .img1, .img2, .img3, .img4{
-    width: 250px;
-    height: 375px;  
-    left: 70%;
+    width: 15em; 
+    left: 60em;
     position: absolute;
+    transition: all 0.4s;
 }
 
 /* 폰트 */
@@ -125,11 +126,12 @@
 .font1{
     font-family: 나눔명조;
     font-size: 4rem;
-    left: 36%;
-    top: 5%;
+    left: 8.4em;
+    top: 0.6em;
     display: inline;
     position: absolute;
     z-index: 2;
+    transition: all 0.4s;
 }
 
 
@@ -137,8 +139,8 @@
     font-family: 나눔명조;
     font-size: 2.5rem;
     display: inline;
-    margin-top: 0.3%;
-    margin-left: 7%;
+    margin-top: 0.08em;
+    margin-left: 1.5em;
     cursor: pointer;
 }
 
@@ -146,8 +148,8 @@
     font-family: 나눔명조;
     font-size: 2.5rem;
     display: inline;
-    margin-top: 0.3%;
-    margin-left: 0.1%;
+    margin-top: 0.08em;
+    margin-left: 0.01em;
     cursor: pointer;
 }
 
@@ -155,48 +157,26 @@
     transform: translateY(-10px);
 }
 
-.font3{
-    font-family: 나눔명조;
-    font-size: 2.7rem;
-    display: inline;
-    margin-left: -55%;
-    margin-top: 2%;
-    position: absolute;
-    z-index: 12;
-}
-
-.font4{
-    font-family: 나눔명조;
-    font-size: 1.7rem;
-    margin-left: -35%;
-    margin-top: 8%;
-    text-align: left;
-    word-break: break-all;
-    display: inline;
-    position: absolute;
-    z-index: 12;
-}
-
 input[id="menuicon"] + label{
     display:block; 
-    margin:20px;
-    width:50px;
-    height:40px;
-    position:fixed;
+    margin: 3em;
+    width: 3.4em;
+    height: 2.6em;
     right: 0%;
     top:calc(7% - 25px);
-    cursor:pointer;
     z-index: 10;
+    cursor:pointer;
+    position:fixed;
 }
 
 input[id="menuicon"] + label span{
-    display:block;
-    position:absolute;
-    width:80%;
-    height:5px;
-    border-radius:30px;
-    background:#000;
-    transition:all .35s;
+    width: 3.4em;
+    height: 0.34em;
+    border-radius: 30px;
+    background: #000;
+    transition: all .35s;
+    display: block;
+    position: absolute;
 }
 
 input[id="menuicon"] + label span:nth-child(1) {
@@ -229,418 +209,157 @@ input[id="menuicon"]:checked + label span:nth-child(3){
 }
 
 .sidebar {
-    width:250px;
-    height:100%;
-    background:#222;
-    position:fixed;
+    width: 18em;
+    height: 100%;
     top:0;
-    right:-300px;
+    right: -30em;
+    background: #222;
+    position: fixed;
     z-index:10;
 }
 
 input[id="menuicon"]:checked + label + div {
-    right:0;
+    right: 0;
 }
 
 .menuFont1{
     font-family: 나눔명조;
-    font-size: 27px;
+    font-size: 1.8rem;
     color: #fff;
-    margin-top: 15%;
+    margin-top: 1em;
     cursor: pointer;
     z-index: 20;
 }
 
 .menuFont2{
     font-family: 나눔명조;
-    font-size: 27px;
+    font-size: 1.8rem;
     color: #fff;
-    margin-top: 5%;
+    margin-top: 1em;
     cursor: pointer;
     z-index: 20;
 }
 
-
-
-@media (min-width: 1401px){
-    .rose1{
-        display: none;
+@media (max-width: 1400px){
+    .logo{
+        left: -34em;
     }
+
     .rose2{
-        display: none;
+        left: 59em;
     }
 
-    .roundCheck {
-        height: 80%; 
-        width: 15%;
-        margin-top: 0.6%;
-        margin-left: -66%;
-    }
-    
-    .font2{
-        font-size: 3rem;
-        margin-top: 1%;
-        margin-left: 7%;
-    }
-    
-    .font2-1{
-        font-size: 3rem;
-        margin-top: 1%;
-        margin-left: 0.1%;
+    .barSquare{
+        left: 15em;
     }
 
     .mainSquare{
-        height: 320%;
-        top: 7%;
-    }
-
-    .sidebar {
-        width:250px;
-        height:25%;
-        top:5;
-        right:26%;
-        position: fixed;
-    }
-     
-    input[id="menuicon"]:checked + label + div {
-        right:0;
-    }   
-}
-
-
-@media (min-width: 1400px){
-    .roundCheck {
-        height: 80%; 
-        width: 15%;
-        margin-top: 0.8%;
-        margin-left: -78%;
-    }
-
-
-    .word1, .word2, .word3, .word4{
-        width: 780px;
-        height: auto;
-        left: 4%;
-    }
-
-    .word2{
-        margin-top: 50%;
-    }
-
-    .word3{
-        left: 4%
-    }
-
-    .font4{
-        font-size: 1.7rem;
-        margin-left: -28%;
-        margin-top: 8%;
-    }
-    
-}
-
-@media(min-width:1450px){
-    .roundCheck {
-        height: 80%; 
-        width: 17%;
-        margin-top: 0.8%;
-        margin-left: -76%;
-    }
-}
-
-@media(min-width:1600px){
-    .roundCheck {
-        height: 80%; 
-        width: 15%;
-        margin-top: 0.8%;
-        margin-left: -76%;
-    }
-}
-
-@media(min-width:1700px){
-    .roundCheck {
-        height: 80%; 
-        width: 15%;
-        margin-top: 0.8%;
-        margin-left: -68%;
-    }
-}
-
-@media(min-width:1920px){
-
-    .roundCheck {
-        height: 80%; 
-        width: 15%;
-        margin-top: 0.8%;
-        margin-left: -65.5%;
-    }
-
-    .word1, .word2, .word3, .word4{
-        width: 1000px;
-        height: 500px;
-        left: 10%;
+        width: 68em;
+        height: 130em;
+        left: 4.5em;
+        top: 2em;
     }
 
     .img1, .img2, .img3, .img4{
-        width: 300px;
-        height: 450px;  
-        left: 70%;
+        width: 13em; 
+        left: 51em;
     }
 
     .font1{
-        font-size: 5rem;
-        left: 36%;
-        top: 5%;
-        z-index: 2;
+        left: 6.8em;
     }
 
-    .font2{
-        font-size: 3rem;
-        margin-top: 0.8%;
-        margin-left: 7%;
-    }
-    
-    .font2-1{
-        font-size: 3rem;
-        margin-top: 0.8%;
-        margin-left: 0.1%;
-    }
 }
-
 
 @media (max-width: 1290px){
-    .roundCheck {
-        height: 80%; 
-        width: 15%;
-        margin-top: 0.8%;
-        margin-left: -79%;
-    }
-
-    .word1, .word2, .word3, .word4{
-        width: 780px;
-        height: auto;
-        left: 3%;
-    }
-
-    .img2, .img2, .img3, .img4{
-        width: 230px;
-        height: 345px;
-    }
-
-    .img2{
-        margin-top: 52%;
-    }
-
-    .font4{
-        font-size: 1.7rem;
-        margin-left: -26%;
-        margin-top: 8%;
-    }
-}
-
-@media (max-width: 1240px) {
     .logo{
-        left: -38%;
-        top: 22%;
+        left: -33em;
     }
 
-    .rose1{
-        width: 30%;
-        height: 43%;
-        left: 0%;
-        top: 60%;
-    }
-    
     .rose2{
-        width: 33%;
-        height: 36%;
-        left: 72%;
-        top: 0%;
+        left: 53em;
     }
-    
-    .mainSquare{
-        margin-left: 4.5%;
-        margin-top: 20%;
-    }
-    
+
     .barSquare{
-        width: 55%;
-        height: 9%;
-        margin-top: 9.5%;
-        margin-left: 14%;
-        padding-top: 0.5%;
+        left: 12em;
     }
 
-    .roundCheck {
-        height: 80%; 
-        width: 15%;
-        margin-top: 0.3%;
-        margin-left: -70%;
-    }
-
-    .word1, .word2, .word3, .word4{
-        width: 740px;
-        height: auto;
-        left: 5%;
+    .mainSquare{
+        width: 68em;
+        height: 130em;
+        left: 1.7em;
+        top: 2em;
     }
 
     .img1, .img2, .img3, .img4{
-        width: 180px;
-        height: 270px;
-        left: 74%;
+        width: 13em; 
+        left: 51em;
     }
 
     .font1{
-        font-size: 3.5rem;
-        left: 35%;
-        top: 5%;
-        z-index: 2;
+        left: 6em;
     }
 
-    .font2{
-        font-size: 2rem;
-        margin-top: 0.3%;
-        margin-left: 7%;
-    
-    }
-    
-    .font2-1{
-        font-size: 2rem;
-        margin-top: 0.3%;
-        margin-left: 0.1%;
+}
+
+@media (max-width: 1220px) {
+    .logo{
+        width: 10em;
+        left: -32em;
+        top: 0.8em;
     }
 
-    .font4{
-        font-size: 1.7rem;
-        margin-left: -30%;
-        margin-top: 8%;
+    .rose1{
+        width: 24em;
+        top: 27.2em;
     }
+    
+    .rose2{
+        overflow: scroll;
+        width: 24em;
+        left: 52em;
+        top: 0em;
+    }
+
+    .barSquare{
+        width: 51em;
+        left: 11em;
+    }
+
+    .mainSquare{
+        width: 65em;
+        height: 130em;
+        left: 1em;
+        top: 3em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 45em;
+        left: 4em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 13em; 
+        left: 47em;
+    }
+
+    .font1{
+        left: 5.5em;
+    }
+    
 }
 
 @media (max-width: 1120px){
-    .roundCheck {
-        height: 80%; 
-        width: 15%;
-        margin-top: 0.3%;
-        margin-left: -74%;
-    }
-
-    .word1, .word2, .word3, .word4{
-        width: 720px;
-        height: auto;
-        left: 3%;
-    }
-
-    .font3{
-        font-size: 2.5rem;
-        margin-left: -55%;
-        margin-top: 2%;
-    }
-
-    .font4{
-        font-size: 1.5rem;
-        margin-left: -30%;
-        margin-top: 10%;
-    }
+    
 }
 
 
 @media (max-width: 1060px) {
-    .logo{
-        width: 20%;
-        height: 100%;
-        left: -40%;
-        top: 22%;
-    }
-
-    .rose1{
-        width: 30%;
-        height: 38%;
-        left: 0%;
-        top: 65%;
-    }
     
-    .rose2{
-        width: 33%;
-        height: 31%;
-        left: 72%;
-        top: 0%;
-    }
-
-    .mainSquare{
-        top: -3%;
-        margin-top: 23%;
-    }
-
-    .barSquare{
-        top: 5%;
-        left: 12%;
-        width: 55%;
-        height: 9%;
-        margin-top: 8%;
-        margin-left: 10%;
-        padding-top: 0.5%;
-    }
-
-    .roundCheck {
-        height: 80%; 
-        width: 15%;
-        margin-top: 0.3%;
-        margin-left: -72%;
-    }
-
-    .word1, .word2, .word3, .word4{
-        width: 680px;
-        height: auto;
-        left: 3%;
-    }
-
-    .font1{
-        font-size: 330%;
-        left: 33%;
-        top: 5%;
-        z-index: 2;
-    }
-
-    .font2{
-        font-size: 180%;
-        margin-top: 0.8%;
-        margin-left: 7%;
-    
-    }
-    
-    .font2-1{
-        font-size: 180%;
-        margin-top: 0.8%;
-        margin-left: 0.1%;
-    }
 }
 
 @media (max-width: 980px){
-    .roundCheck {
-        height: 80%; 
-        width: 15%;
-        margin-top: 0.3%;
-        margin-left: -76%;
-    }
-
-    .word1, .word2, .word3, .word4{
-        width: 600px;
-        height: auto;
-        left: 3%;
-    }
-
-    .font3{
-        font-size: 2.6rem;
-        margin-left: -30%;
-        margin-top: 2%;
-    }
-
-    .font4{
-        font-size: 1.6rem;
-        margin-left: -5%;
-        margin-top: 13%;
-    }
+   
     
 }
 
