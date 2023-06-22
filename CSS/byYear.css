@@ -830,7 +830,7 @@ input[id="menuicon"]:checked + label + div {
     }
 }
 
-@media (max-height: 735px){
+/* @media (max-height: 735px){
     .rose1{
         display: none;
     }
@@ -848,4 +848,4 @@ input[id="menuicon"]:checked + label + div {
     .rose2{
         display: none;
     }
-}
+} */

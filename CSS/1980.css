@@ -433,7 +433,7 @@ input[id="menuicon"]:checked + label + div {
         height: 2.8em; 
         width: 6.8em;
         margin-top: 0.38em;
-        margin-left: -33.7em;
+        margin-left: -16.8em;
     }
 
     .word1, .word2, .word3, .word4{
@@ -497,7 +497,7 @@ input[id="menuicon"]:checked + label + div {
         height: 2.8em; 
         width: 6.6em;
         margin-top: 0.38em;
-        margin-left: -29.3em;
+        margin-left: -14.6em;
     }
 
     .word1, .word2, .word3, .word4{
@@ -563,7 +563,7 @@ input[id="menuicon"]:checked + label + div {
         height: 2.8em; 
         width: 6.6em;
         margin-top: 0.38em;
-        margin-left: -29.3em;
+        margin-left: -14.6em;
     }
 
     .word1, .word2, .word3, .word4{
@@ -649,7 +649,7 @@ input[id="menuicon"]:checked + label + div {
         height: 2.8em; 
         width: 6em;
         margin-top: 0.38em;
-        margin-left: -29.3em;
+        margin-left: -14.5em;
     }
 
     .word1, .word2, .word3, .word4{
@@ -717,7 +717,7 @@ input[id="menuicon"]:checked + label + div {
         height: 2.6em; 
         width: 5em;
         margin-top: 0.38em;
-        margin-left: -26em;
+        margin-left: -13em;
     }
 
     .word1, .word2, .word3, .word4{
@@ -801,7 +801,7 @@ input[id="menuicon"]:checked + label + div {
         height: 2.6em; 
         width: 5em;
         margin-top: 0.38em;
-        margin-left: -22em;
+        margin-left: -11em;
     }
 
     .word1, .word2, .word3, .word4{
@@ -882,7 +882,7 @@ input[id="menuicon"]:checked + label + div {
         height: 2.6em; 
         width: 5em;
         margin-top: 0.38em;
-        margin-left: -21.7em;
+        margin-left: -10.9em;
     }
 
     .word1, .word2, .word3, .word4{
@@ -963,7 +963,7 @@ input[id="menuicon"]:checked + label + div {
         height: 2.6em; 
         width: 4.3em;
         margin-top: 0.38em;
-        margin-left: -18.5em;
+        margin-left: -9.4em;
     }
 
     .word1, .word2, .word3, .word4{
@@ -1064,7 +1064,7 @@ input[id="menuicon"]:checked + label + div {
         height: 2.3em; 
         width: 4.1em;
         margin-top: 0.38em;
-        margin-left: -16.3em;
+        margin-left: -7.8em;
     }
 
     .word1, .word2, .word3, .word4{
@@ -1144,7 +1144,7 @@ input[id="menuicon"]:checked + label + div {
     }
 }
 
-@media (max-height: 733px){
+/* @media (max-height: 733px){
     .rose1{
         display: none;
     }
@@ -1162,4 +1162,4 @@ input[id="menuicon"]:checked + label + div {
     .rose2{
         display: none;
     }
-}
+} */
