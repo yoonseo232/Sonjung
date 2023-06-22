@@ -1,3 +1,4 @@
+
 .logo{
     width: 11em;
     left: -35em;
@@ -39,7 +40,7 @@
     left: 3em;
     top: 0em;
     width: 80.3em;
-    height: 28em;
+    height: 140em;
     margin-left: 4.5%;
     margin-top: 16%;
     position: absolute;
@@ -60,12 +61,72 @@
     transition: all 0.4s;
 }
 
+.roundCheck {
+    height: 3.1em; 
+    width: 8.2em;
+    margin-top: 0.38em;
+    margin-left: -18.2em;
+    border: 3px solid black;
+    border-radius: 3em;
+    position: absolute;
+    z-index: 13;
+    transition: all 0.4s;
+}
+
+
+/* 메인 사각형 안 */
+.word1{
+    margin-top: 5em;
+}
+
+.word2{
+    margin-top: 35em;
+}
+
+.word3{
+    margin-top: 65em;
+}
+
+.word4{
+    margin-top: 95em;
+}
+
+.word1, .word2, .word3, .word4{
+    width: 50em;
+    left: 6em;
+    position: absolute;
+    transition: all 0.4s;
+}
+
+.img1{
+    margin-top: 5em;
+}
+
+.img2{
+    margin-top: 35em;
+}
+
+.img3{
+    margin-top: 65em;
+}
+
+.img4{
+    margin-top: 95em;
+}
+
+.img1, .img2, .img3, .img4{
+    width: 15em; 
+    left: 60em;
+    position: absolute;
+    transition: all 0.4s;
+}
+
 /* 폰트 */
 
 .font1{
     font-family: 나눔명조;
     font-size: 4rem;
-    left: 9em;
+    left: 8.4em;
     top: 0.6em;
     display: inline;
     position: absolute;
@@ -199,12 +260,18 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 68em;
+        height: 130em;
         left: 4.5em;
         top: 2em;
     }
 
+    .img1, .img2, .img3, .img4{
+        width: 13em; 
+        left: 51em;
+    }
+
     .font1{
-        left: 7.4em;
+        left: 6.8em;
     }
 
 }
@@ -224,12 +291,18 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 68em;
+        height: 130em;
         left: 1.7em;
         top: 2em;
     }
 
+    .img1, .img2, .img3, .img4{
+        width: 13em; 
+        left: 51em;
+    }
+
     .font1{
-        left: 6.6em;
+        left: 6em;
     }
 
 }
@@ -259,12 +332,23 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 65em;
+        height: 130em;
         left: 1em;
         top: 3em;
     }
 
+    .word1, .word2, .word3, .word4{
+        width: 45em;
+        left: 4em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 13em; 
+        left: 47em;
+    }
+
     .font1{
-        left: 6.1em;
+        left: 5.5em;
     }
     
 }
@@ -294,12 +378,23 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 60em;
+        height: 130em;
         left: 1.3em;
         top: 4em;
     }
 
+    .word1, .word2, .word3, .word4{
+        width: 42em;
+        left: 3em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 11em; 
+        left: 43em;
+    }
+
     .font1{
-        left: 6.1em;
+        left: 5.5em;
     }
 }
 
@@ -329,12 +424,30 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 56em;
+        height: 130em;
         left: 1.3em;
         top: 4em;
     }
 
+    .roundCheck {
+        height: 2.8em; 
+        width: 6.8em;
+        margin-top: 0.38em;
+        margin-left: -33.7em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 42em;
+        left: 3em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 11em; 
+        left: 41em;
+    }
+
     .font1{
-        left: 5.1em;
+        left: 4.5em;
     }
 
     .font2{
@@ -375,13 +488,31 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 52em;
+        height: 130em;
         left: 1.1em;
         top: 5em;
     }
 
+    .roundCheck {
+        height: 2.8em; 
+        width: 6.6em;
+        margin-top: 0.38em;
+        margin-left: -29.3em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 40em;
+        left: 2em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 11em; 
+        left: 38em;
+    }
+
     .font1{
         font-size: 3.5rem;
-        left: 5.6em;
+        left: 5em;
     }
 
     .font2{
@@ -423,13 +554,31 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 49em;
+        height: 130em;
         left: 1em;
         top: 5em;
     }
 
+    .roundCheck {
+        height: 2.8em; 
+        width: 6.6em;
+        margin-top: 0.38em;
+        margin-left: -29.3em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 37em;
+        left: 2em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 11em; 
+        left: 36em;
+    }
+
     .font1{
         font-size: 3.2rem;
-        left: 5.9em;
+        left: 5.3em;
     }
 
     .font2{
@@ -491,13 +640,31 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 44em;
+        height: 130em;
         left: 0em;
         top: 5em;
     }
 
+    .roundCheck {
+        height: 2.8em; 
+        width: 6em;
+        margin-top: 0.38em;
+        margin-left: -29.3em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 37em;
+        left: 1em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 9em; 
+        left: 32em;
+    }
+
     .font1{
         font-size: 2.7rem;
-        left: 5.9em;
+        left: 5.3em;
         top: 1em;
     }
 
@@ -541,12 +708,46 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 37.5em;
+        height: 130em;
         left: 0em;
         top: 6em;
     }
 
+    .roundCheck {
+        height: 2.6em; 
+        width: 5em;
+        margin-top: 0.38em;
+        margin-left: -26em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 36em;
+        left: 1em;
+    }
+
+    .img1{
+        margin-top: 20em;
+    }
+    
+    .img2{
+        margin-top: 51em;
+    }
+    
+    .img3{
+        margin-top: 81em;
+    }
+
+    .img4{
+        margin-top: 111em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 8em; 
+        left: 2em;
+    }
+
     .font1{
-        font-size: 2.7rem;
+        font-size: 2.6rem;
         left: 4.5em;
         top: 1em;
     }
@@ -591,14 +792,47 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 33.2em;
+        height: 130em;
         left: 0em;
         top: 7em;
     }
 
+    .roundCheck {
+        height: 2.6em; 
+        width: 5em;
+        margin-top: 0.38em;
+        margin-left: -22em;
+    }
+
+    .word1, .word2, .word3, .word4{
+        width: 35em;
+        left: 1em;
+    }
+
+    .img1{
+        margin-top: 20em;
+    }
     
+    .img2{
+        margin-top: 51em;
+    }
+    
+    .img3{
+        margin-top: 81em;
+    }
+
+    .img4{
+        margin-top: 111em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 7em; 
+        left: 2em;
+    }
+
     .font1{
         font-size: 2.3rem;
-        left: 5.1em;
+        left: 4.5em;
         top: 1em;
     }
 
@@ -639,6 +873,7 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 28em;
+        height: 130em;
         left: 0em;
         top: 7em;
     }
@@ -650,9 +885,35 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -21.7em;
     }
 
+    .word1, .word2, .word3, .word4{
+        width: 33.5em;
+        left: 0em;
+    }
+
+    .img1{
+        margin-top: 20em;
+    }
+    
+    .img2{
+        margin-top: 51em;
+    }
+    
+    .img3{
+        margin-top: 81em;
+    }
+
+    .img4{
+        margin-top: 111em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 7em; 
+        left: 1em;
+    }
+
     .font1{
         font-size: 2.3rem;
-        left: 3.7em;
+        left: 2.9em;
         top: 1em;
     }
 
@@ -693,6 +954,7 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 23em;
+        height: 130em;
         left: 0.4em;
         top: 7em;
     }
@@ -704,9 +966,35 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -18.5em;
     }
 
+    .word1, .word2, .word3, .word4{
+        width: 28em;
+        left: 0em;
+    }
+
+    .img1{
+        margin-top: 20em;
+    }
+    
+    .img2{
+        margin-top: 51em;
+    }
+    
+    .img3{
+        margin-top: 81em;
+    }
+
+    .img4{
+        margin-top: 111em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 6em; 
+        left: 1em;
+    }
+
     .font1{
         font-size: 2rem;
-        left: 3.6em;
+        left: 3em;
         top: 1em;
     }
 
@@ -767,6 +1055,7 @@ input[id="menuicon"]:checked + label + div {
 
     .mainSquare{
         width: 20.6em;
+        height: 130em;
         left: 0.4em;
         top: 7em;
     }
@@ -778,10 +1067,35 @@ input[id="menuicon"]:checked + label + div {
         margin-left: -16.3em;
     }
 
+    .word1, .word2, .word3, .word4{
+        width: 24em;
+        left: 0em;
+    }
+
+    .img1{
+        margin-top: 20em;
+    }
+    
+    .img2{
+        margin-top: 51em;
+    }
+    
+    .img3{
+        margin-top: 81em;
+    }
+
+    .img4{
+        margin-top: 111em;
+    }
+
+    .img1, .img2, .img3, .img4{
+        width: 6em; 
+        left: 1em;
+    }
 
     .font1{
         font-size: 1.8rem;
-        left: 3.6em;
+        left: 3em;
         top: 1.4em;
     }
 
@@ -830,7 +1144,7 @@ input[id="menuicon"]:checked + label + div {
     }
 }
 
-@media (max-height: 735px){
+@media (max-height: 733px){
     .rose1{
         display: none;
     }
@@ -840,7 +1154,7 @@ input[id="menuicon"]:checked + label + div {
     }
 }
 
-@media (min-height: 737px){
+@media (min-height: 738px){
     .rose1{
         display: none;
     }
