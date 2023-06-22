@@ -1,96 +1,133 @@
-*{
-    overflow: hidden;
+
+.logo{
+    width: 11em;
+    left: -35em;
+    top: 1em;
+    position : relative;
+    z-index: 6;
+    cursor: pointer;
 }
 
 #menuicon{
     display: none;
 }
 
-.font1{
-    font-family: 나눔명조;
-    font-size: 400%;
-    left: 40%;
-    top: 5%;
-    display: inline;
-    position: absolute;
-    z-index: 2;
-}
-
-.font2{
-    font-family: 나눔명조;
-    font-size: 150%;
-    left: 38%;
-    top: 17%;
-    display: inline;
-    position: absolute;
-    z-index: 2;
-}
-
-.mainSquare{
-    border-width: 3%;
-    border-color: black;
-    border-style: solid;
-    left: 3%;
-    top: -1%;
-    width: 85%;
-    height: 500%;
-    margin-left: 4.5%;
-    margin-top: 16%;
-    position: absolute;
-    z-index: 1;
-}
-
-.medal{
-    width: 120px;
-    height: 145px;
-    left: -20%;
-    margin-top: 5%;
-    z-index: 3;
-}
-
 .rose1{
     overflow: scroll;
-    width: 31.6%;
-    height: 48%;
-    left: -0.8%;
-    top: 55%;
-    position: fixed;
+    width: 26em;
+    left: 0em;
+    top: 26em;
     position: absolute;
-    z-index: 4;
     position: fixed;
+    z-index: 4;
+    transition: all 0.4s;
 }
 
 .rose2{
     overflow: scroll;
-    width: 34.6%;
-    height: 41%;
-    left: 71.2%;
-    top: 0%;
+    width: 26em;
+    left: 70em;
+    top: 0em;
     z-index: 4;
     position: fixed;
+    transition: all 0.4s;
 }
+
+.mainSquare{
+    border-width: 0.2em;
+    border-color: black;
+    border-style: solid;
+    left: 3em;
+    top: 0em;
+    width: 80.3em;
+    height: 140em;
+    margin-left: 4.5%;
+    margin-top: 16%;
+    position: absolute;
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+
+/* 메인 사각형 안 */
+.medal{
+    width: 30em;
+    height: 10.4em;
+    margin-top: 6em;
+    left: 0em;
+    position: relative;
+    z-index: 8;
+}
+
+/* 폰트 */
+
+.font1{
+    font-family: 나눔명조;
+    font-size: 4rem;
+    left: 9.6em;
+    top: 0.6em;
+    display: inline;
+    position: absolute;
+    z-index: 2;
+    transition: all 0.4s;
+}
+
+.font2{
+    font-family: 나눔명조;
+    font-size: 1.7rem;
+    left: 21.3em;
+    top: 4.5em;
+    display: inline;
+    position: absolute;
+    z-index: 2;
+    transition: all 0.4s;
+}
+
+.font3-1{
+    font-family: 나눔명조;
+    font-size: 1rem;
+    left: 40em;
+    top: 4.5em;
+    display: inline;
+    position: absolute;
+    z-index: 2;
+    transition: all 0.4s;
+}
+
+.font3-2{
+    font-family: 나눔명조;
+    font-size: 1rem;
+    left: 49em;
+    top: 4.5em;
+    display: inline;
+    position: absolute;
+    z-index: 2;
+    transition: all 0.4s;
+}
+
+
+/* 햄버거 메뉴 */
 
 input[id="menuicon"] + label{
     display:block; 
-    margin:20px;
-    width:50px;
-    height:40px;
-    position:fixed;
-    right: 0.8%;
+    margin: 3em;
+    width: 3em;
+    height: 2.6em;
+    right: 0em;
     top:calc(7% - 25px);
-    cursor:pointer;
     z-index: 10;
-    
+    cursor:pointer;
+    position:fixed;
 }
 
 input[id="menuicon"] + label span{
-    display:block;
-    position:absolute;
-    width:80%;
-    height:5px;
-    border-radius:30px;
-    background:#000;
-    transition:all .35s;
+    width: 3.4em;
+    height: 0.34em;
+    border-radius: 30px;
+    background: #000;
+    transition: all .35s;
+    display: block;
+    position: absolute;
 }
 
 input[id="menuicon"] + label span:nth-child(1) {
@@ -123,330 +160,581 @@ input[id="menuicon"]:checked + label span:nth-child(3){
 }
 
 .sidebar {
-    width:250px;
-    height:100%;
-    background:#222;
-    position:fixed;
+    width: 18em;
+    height: 100%;
     top:0;
-    right:-300px;
+    right: -30em;
+    background: #222;
+    position: fixed;
     z-index:10;
 }
 
 input[id="menuicon"]:checked + label + div {
-    right:0;
+    right: 0;
 }
 
 .menuFont1{
     font-family: 나눔명조;
-    font-size: 27px;
+    font-size: 1.8rem;
     color: #fff;
-    margin-top: 15%;
+    margin-top: 1em;
     cursor: pointer;
     z-index: 20;
 }
 
 .menuFont2{
     font-family: 나눔명조;
-    font-size: 27px;
+    font-size: 1.8rem;
     color: #fff;
-    margin-top: 5%;
+    margin-top: 1em;
     cursor: pointer;
     z-index: 20;
 }
 
-@media (max-width: 1240px) {
-    
-    .rose1{
-        width: 32%;
-        height: 43%;
-        left: -1%;
-        top: 60%;
+@media (max-width: 1400px){
+    .logo{
+        left: -34em;
     }
-    
+
     .rose2{
-        width: 35%;
-        height: 36%;
-        left: 71%;
-        top: 0%;
+        left: 59em;
     }
-    
+
     .mainSquare{
-        margin-left: 4.5%;
-        margin-top: 20%;
+        width: 68em;
+        height: 130em;
+        left: 4.5em;
+        top: 2em;
     }
-    
 
     .font1{
-        font-size: 350%;
-        left: 38%;
-        top: 5%;
-        z-index: 2;
+        left: 8.2em;
     }
 
     .font2{
-        font-size: 140%;
-        left: 35%;
-        top: 17%;
+        font-size: 1.7rem;
+        left: 18.2em;
+        top: 4.5em;
     }
-    
 }
 
-
-@media (max-width: 1060px) {
-    
-
-    .rose1{
-        width: 32%;
-        height: 38%;
-        left: -1%;
-        top: 65%;
+@media (max-width: 1290px){
+    .logo{
+        left: -33em;
     }
-    
+
     .rose2{
-        width: 37%;
-        height: 30%;
-        left: 70%;
-        top: 0%;
+        left: 53em;
     }
 
     .mainSquare{
-        top: -3%;
-        margin-top: 23%;
+        width: 68em;
+        height: 130em;
+        left: 1.7em;
+        top: 2em;
     }
 
     .font1{
-        font-size: 330%;
-        left: 38%;
-        top: 5%;
-        z-index: 2;
+        left: 7.6em;
     }
 
     .font2{
-        font-size: 130%;
-        left: 35%;
-        top: 17%;
+        font-size: 1.7rem;
+        left: 16.7em;
+        top: 4.5em;
     }
 
 }
 
-@media (max-width: 930px) {
-    
+@media (max-width: 1220px) {
+    .logo{
+        width: 10em;
+        left: -32em;
+        top: 0.8em;
+    }
+
     .rose1{
-        width: 32%;
-        height: 33%;
-        left: -1%;
-        top: 69%;
+        width: 24em;
+        top: 27.2em;
     }
     
     .rose2{
-        width: 35%;
-        height: 25%;
-        left: 71.5%;
-        top: 0%;
+        width: 24em;
+        left: 52em;
+        top: 0em;
     }
 
     .mainSquare{
-        top: 1%;
-        margin-top: 23%;
+        width: 65em;
+        height: 130em;
+        left: 1em;
+        top: 3em;
     }
 
+
     .font1{
-        font-size: 300%;
-        left: 38%;
-        top: 5%;
+        left: 7em;
     }
 
     .font2{
-        font-size: 130%;
-        left: 34%;
-        top: 14%;
+        font-size: 1.7rem;
+        left: 15.3em;
+        top: 4.5em;
+    }
+    
+}
+
+@media (max-width: 1120px){
+    .logo{
+        width: 10em;
+        left: -28em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        width: 22em;
+        top: 28.7em;
+    }
+    
+    .rose2{
+        width: 22em;
+        left: 49em;
+        top: 0em;
+    }
+
+    .mainSquare{
+        width: 60em;
+        height: 130em;
+        left: 1.3em;
+        top: 4em;
+    }
+
+    .font1{
+        left: 6.6em;
+    }
+
+    .font2{
+        font-size: 1.7rem;
+        left: 14.5em;
+        top: 4.5em;
     }
 }
 
-@media (max-width: 850px) {
+
+@media (max-width: 1040px) {
+    .logo{
+        width: 9em;
+        left: -26em;
+        top: 0.6em;
+    }
+
     .rose1{
-        width: 30%;
-        height: 30%;
-        left: 0%;
-        top: 71%;
+        width: 22em;
+        top: 30em;
     }
     
     .rose2{
-        width: 33%;
-        height: 25%;
-        left: 72%;
-        top: 0%;
+        width: 22em;
+        left: 46em;
+        top: 0em;
     }
 
     .mainSquare{
-        top: 3%;
-        margin-top: 23%;
+        width: 56em;
+        height: 130em;
+        left: 1.3em;
+        top: 4em;
     }
 
     .font1{
-        font-size: 280%;
-        left: 38%;
-        top: 5%;
+        left: 5.6em;
     }
 
     .font2{
-        font-size: 130%;
-        left: 33%;
-        top: 14%;
-    }
-   
-}
-
-@media (max-width: 760px) {
-    
-    .rose1{
-        width: 37%;
-        height: 30%;
-        left: -1.5%;
-        top: 71%;
-    }
-    
-    .rose2{
-        width: 39%;
-        height: 26%;
-        left: 72%;
-        top: 0%;
-    }
-
-    .mainSquare{
-        top: 0%;
-        margin-top: 23%;
-    }
-
-    .font1{
-        font-size: 280%;
-        left: 35%;
-        top: 5%;
-    }
-
-    .font2{
-        font-size: 130%;
-        left: 30%;
-        top: 14%;
-    }
-
-}
-
-@media (max-width: 670px) {
-    .rose1{
-        display: none;
-    }
-    
-    .rose2{
-        display: none;
-    }
-
-    .mainSquare{
-        top: 3%;
-        margin-top: 23%;
-    }
-
-    .font1{
-        font-size: 270%;
-        left: 35%;
-        top: 5%;
-    }
-
-    .font2{
-        font-size: 130%;
-        left: 29%;
-        top: 14%;
+        font-size: 1.7rem;
+        left: 11.8em;
+        top: 4.5em;
     }
 
 }
 
-@media (max-width: 550px) {
+@media (max-width: 980px){
+    .logo{
+        width: 9em;
+        left: -24em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        width: 22em;
+        top: 30em;
+    }
+    
+    .rose2{
+        width: 22em;
+        left: 41em;
+        top: 0em;
+    }
+
+    .mainSquare{
+        width: 52em;
+        height: 130em;
+        left: 1.1em;
+        top: 5em;
+    }
+
+    .font1{
+        font-size: 3.5rem;
+        left: 6.3em;
+    }
+
+    .font2{
+        font-size: 1.5rem;
+        left: 13.5em;
+        top: 4.9em;
+    }
+}
+
+@media (max-width: 900px) {
+    .logo{
+        width: 9em;
+        left: -23.3em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        width: 22em;
+        top: 32em;
+    }
+    
+    .rose2{
+        width: 22em;
+        left: 38em;
+        top: 0em;
+    }
+
+    .mainSquare{
+        width: 49em;
+        height: 130em;
+        left: 1em;
+        top: 5em;
+    }
+    .font1{
+        font-size: 3.2rem;
+        left: 6em;
+    }
+    
+    .font2{
+        font-size: 1.5rem;
+        left: 11em;
+        top: 4.9em;
+    }
+
     input[id="menuicon"] + label{
-        margin:8px;
-        width:40px;
-        height:30px;
-        right:7%;
+        margin: 2em;
+        width: 1em;
+        height: 2.3em;
+        right: 2em;
         top:calc(7% - 25px);
     }
+
     input[id="menuicon"] + label span{
-        width: 70%;
+        width: 2.7em;
+        height: 0.3em;
+    }
+
+    .sidebar {
+        width: 14em;
+        height: 100%;
+        top:0;
+        right: -30em;
+    }
+}
+
+@media (max-width: 800px) {
+    .logo{
+        width: 8em;
+        left: -20em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        width: 22em;
+        top: 32em;
+    }
+    
+    .rose2{
+        width: 22em;
+        left: 32em;
+        top: 0em;
     }
 
     .mainSquare{
-        top: 7%;
-        margin-top: 23%;
+        width: 44em;
+        height: 130em;
+        left: 0em;
+        top: 5em;
     }
 
     .font1{
-        font-size: 260%;
-        left: 32%;
-        top: 5%;
+        font-size: 2.7rem;
+        left: 6.4em;
+        top: 1em;
     }
 
     .font2{
-        font-size: 110%;
-        left: 26%;
-        top: 14%;
+        font-size: 1.3rem;
+        left: 11.6em;
+        top: 5.5em;
     }
-
 }
 
-@media (max-width: 460px) {
+@media (max-width: 700px){
+    .logo{
+        width: 8em;
+        left: -16em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        width: 18em;
+        top: 35em;
+    }
+    
+    .rose2{
+        width: 18em;
+        left: 27.2em;
+        top: 0em;
+    }
+
     .mainSquare{
-        top: 4%;
-        margin-top: 23%;
+        width: 37.5em;
+        height: 130em;
+        left: 0em;
+        top: 6em;
     }
 
     .font1{
-        font-size: 230%;
-        left: 30%;
-        top: 5%;
+        font-size: 2.6rem;
+        left: 5.3em;
+        top: 1em;
     }
 
     .font2{
-        font-size: 110%;
-        left: 22%;
-        top: 12%;
+        font-size: 1.3rem;
+        left: 8.9em;
+        top: 5.5em;
     }
-
 }
 
-@media (max-width: 420px) {
+@media (max-width: 600px){
+    .logo{
+        width: 8em;
+        left: -14em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        width: 18em;
+        top: 35em;
+    }
+    
+    .rose2{
+        width: 18em;
+        left: 23em;
+        top: 0em;
+    }
+
     .mainSquare{
-        top: 6%;
-        margin-top: 23%;
+        width: 33.2em;
+        height: 130em;
+        left: 0em;
+        top: 7em;
     }
 
     .font1{
-        font-size: 230%;
-        left: 26%;
-        top: 5%;
+        font-size: 2.3rem;
+        left: 5.3em;
+        top: 1.4em;
     }
 
     .font2{
-        font-size: 110%;
-        left: 18%;
-        top: 12%;
+        font-size: 1.3rem;
+        left: 7.1em;
+        top: 5.5em;
     }
-
 }
 
-@media (max-width: 340px) {
+@media (max-width: 500px){
+    .logo{
+        width: 6.5em;
+        left: -11em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        display: none;
+    }
+    
+    .rose2{
+        display: none;
+    }
+
     .mainSquare{
-        top: 6%;
-        margin-top: 23%;
+        width: 28em;
+        height: 130em;
+        left: 0em;
+        top: 7em;
     }
 
     .font1{
-        font-size: 210%;
-        left: 25%;
-        top: 5%;
+        font-size: 2.3rem;
+        left: 4.2em;
+        top: 1em;
     }
 
     .font2{
-        font-size: 90%;
-        left: 18%;
-        top: 12%;
+        font-size: 1.1rem;
+        left: 7em;
+        top: 6em;
+    }
+}
+
+@media (max-width: 415px) {
+    .logo{
+        width: 6em;
+        left: -9.8em;
+        top: 0.6em;
     }
 
+    .rose1{
+        display: none;
+    }
+    
+    .rose2{
+        display: none;
+    }
+
+    .mainSquare{
+        width: 23em;
+        height: 130em;
+        left: 0.4em;
+        top: 7em;
+    }
+
+    .font1{
+        font-size: 2rem;
+        left: 4.3em;
+        top: 1em;
+    }
+
+    .font2{
+        font-size: 1.1rem;
+        left: 5.3em;
+        top: 6em;
+    }
+
+    input[id="menuicon"] + label{
+        margin: 0em;
+        width: 1em;
+        height: 2em;
+        right: 9em;
+        top:calc(7% - 25px);
+    }
+
+    input[id="menuicon"] + label span{
+        width: 2em;
+        height: 0.3em;
+    }
+
+    .sidebar {
+        width: 14em;
+        height: 100%;
+        top:0;
+        right: -30em;
+    }
 }
+
+@media (max-width: 376px) {
+    .logo{
+        width: 5.6em;
+        left: -8.8em;
+        top: 0.6em;
+    }
+
+    .rose1{
+        display: none;
+    }
+    
+    .rose2{
+        display: none;
+    }
+
+    .barSquare{
+        width: 20.6em;
+        height: 3.8em;
+        left: 1.5em;
+        top: 6.3em;
+    }
+
+    .mainSquare{
+        width: 20.6em;
+        height: 130em;
+        left: 0.4em;
+        top: 7em;
+    }
+
+    .font1{
+        font-size: 1.8rem;
+        left: 4em;
+        top: 1.4em;
+    }
+
+    .font2{
+        font-size: 1.1rem;
+        left: 4.2em;
+        top: 6em;
+    }
+
+    input[id="menuicon"] + label{
+        margin: 0em;
+        width: 1em;
+        height: 2em;
+        right: 9em;
+        top:calc(7% - 25px);
+    }
+
+    input[id="menuicon"] + label span{
+        width: 2em;
+        height: 0.3em;
+    }
+
+    .sidebar {
+        width: 13em;
+        height: 100%;
+        top:0;
+        right: -50em;
+    }
+
+    .menuFont1{
+        font-size: 1rem;
+        margin-top: 1em;
+        margin-left: -5em;
+    }
+    
+    .menuFont2{
+        font-size: 1rem;
+        margin-top: 1em;
+        margin-left: -5em;
+    }
+}
+
+@media (min-height: 737px){
+    .rose1{
+        display: none;
+    }
+
+    .rose2{
+        display: none;
+    }
+} 
