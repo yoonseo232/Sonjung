@@ -733,6 +733,11 @@ input[id="menuicon"]:checked + label + div {
         top: 7em;
     }
 
+    .medal1, .medal2, .medal3, .medal4, .medal5, .medal6, .medal7, .medal8, .medal9, .medal10{
+        width: 18em;
+        height: auto;
+    }
+
     .font1{
         font-size: 2.3rem;
         left: 4.2em;
