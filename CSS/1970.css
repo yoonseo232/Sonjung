@@ -909,7 +909,7 @@ input[id="menuicon"]:checked + label + div {
 
     .font1{
         font-size: 2.3rem;
-        left: 3em;
+        left: 2.em;
         top: 1em;
     }
 
