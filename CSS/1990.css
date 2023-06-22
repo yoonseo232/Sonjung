@@ -726,7 +726,7 @@ input[id="menuicon"]:checked + label + div {
     }
 
     .img1{
-        margin-top: 20em;
+        margin-top: 21em;
     }
     
     .img2{
@@ -1144,7 +1144,7 @@ input[id="menuicon"]:checked + label + div {
     }
 }
 
-/* @media (max-height: 733px){
+@media (min-height: 737px){
     .rose1{
         display: none;
     }
@@ -1152,14 +1152,4 @@ input[id="menuicon"]:checked + label + div {
     .rose2{
         display: none;
     }
-}
-
-@media (min-height: 738px){
-    .rose1{
-        display: none;
-    }
-
-    .rose2{
-        display: none;
-    }
-} */
+} 
