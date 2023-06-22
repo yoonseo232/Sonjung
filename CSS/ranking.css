@@ -50,13 +50,52 @@
 
 
 /* 메인 사각형 안 */
-.medal{
+.medal1, .medal2, .medal3, .medal4, .medal5, .medal6, .medal7, .medal8, .medal9, .medal10{
     width: 30em;
     height: 10.4em;
-    margin-top: 6em;
-    left: 0em;
-    position: relative;
+    left: center;
+    position: absolute;
     z-index: 8;
+}
+
+.medal1{
+    margin-top: 6em;
+}
+
+.medal2{
+    margin-top: 17em;
+}
+
+.medal3{
+    margin-top: 28em;
+}
+
+.medal4{
+    margin-top: 39em;
+}
+
+.medal5{
+    margin-top: 50em;
+}
+
+.medal6{
+    margin-top: 61em;
+}
+
+.medal7{
+    margin-top: 72em;
+}
+
+.medal8{
+    margin-top: 83em;
+}
+
+.medal9{
+    margin-top: 94em;
+}
+
+.medal10{
+    margin-top: 105em;
 }
 
 /* 폰트 */
@@ -86,7 +125,7 @@
 .font3-1{
     font-family: 나눔명조;
     font-size: 1rem;
-    left: 40em;
+    left: 39.6em;
     top: 4.5em;
     display: inline;
     position: absolute;
@@ -216,6 +255,16 @@ input[id="menuicon"]:checked + label + div {
         left: 18.2em;
         top: 4.5em;
     }
+
+    .font3-1{
+        left: 34em;
+        top: 4.5em;
+    }
+    
+    .font3-2{
+        left: 43em;
+        top: 4.5em;
+    }
 }
 
 @media (max-width: 1290px){
@@ -234,6 +283,11 @@ input[id="menuicon"]:checked + label + div {
         top: 2em;
     }
 
+    .medal1, .medal2, .medal3, .medal4, .medal5, .medal6, .medal7, .medal8, .medal9, .medal10{
+        width: 26em;
+        height: auto;
+    }
+
     .font1{
         left: 7.6em;
     }
@@ -243,6 +297,8 @@ input[id="menuicon"]:checked + label + div {
         left: 16.7em;
         top: 4.5em;
     }
+
+    
 
 }
 
@@ -281,6 +337,16 @@ input[id="menuicon"]:checked + label + div {
         left: 15.3em;
         top: 4.5em;
     }
+
+    .font3-1{
+        left: 32em;
+        top: 4.5em;
+    }
+    
+    .font3-2{
+        left: 41em;
+        top: 4.5em;
+    }
     
 }
 
@@ -316,6 +382,16 @@ input[id="menuicon"]:checked + label + div {
     .font2{
         font-size: 1.7rem;
         left: 14.5em;
+        top: 4.5em;
+    }
+
+    .font3-1{
+        left: 30em;
+        top: 4.5em;
+    }
+    
+    .font3-2{
+        left: 38em;
         top: 4.5em;
     }
 }
@@ -356,6 +432,16 @@ input[id="menuicon"]:checked + label + div {
         top: 4.5em;
     }
 
+    .font3-1{
+        left: 28em;
+        top: 4.5em;
+    }
+    
+    .font3-2{
+        left: 36.5em;
+        top: 4.5em;
+    }
+
 }
 
 @media (max-width: 980px){
@@ -383,6 +469,11 @@ input[id="menuicon"]:checked + label + div {
         top: 5em;
     }
 
+    .medal1, .medal2, .medal3, .medal4, .medal5, .medal6, .medal7, .medal8, .medal9, .medal10{
+        width: 24em;
+        height: auto;
+    }
+
     .font1{
         font-size: 3.5rem;
         left: 6.3em;
@@ -392,6 +483,16 @@ input[id="menuicon"]:checked + label + div {
         font-size: 1.5rem;
         left: 13.5em;
         top: 4.9em;
+    }
+
+    .font3-1{
+        left: 25.7em;
+        top: 4.5em;
+    }
+    
+    .font3-2{
+        left: 33em;
+        top: 4.5em;
     }
 }
 
@@ -428,6 +529,16 @@ input[id="menuicon"]:checked + label + div {
         font-size: 1.5rem;
         left: 11em;
         top: 4.9em;
+    }
+
+    .font3-1{
+        left: 24em;
+        top: 4.5em;
+    }
+    
+    .font3-2{
+        left: 30.7em;
+        top: 4.5em;
     }
 
     input[id="menuicon"] + label{
@@ -487,6 +598,16 @@ input[id="menuicon"]:checked + label + div {
         left: 11.6em;
         top: 5.5em;
     }
+
+    .font3-1{
+        left: 21.5em;
+        top: 4.5em;
+    }
+    
+    .font3-2{
+        left: 29em;
+        top: 4.5em;
+    }
 }
 
 @media (max-width: 700px){
@@ -514,6 +635,11 @@ input[id="menuicon"]:checked + label + div {
         top: 6em;
     }
 
+    .medal1, .medal2, .medal3, .medal4, .medal5, .medal6, .medal7, .medal8, .medal9, .medal10{
+        width: 22em;
+        height: auto;
+    }
+
     .font1{
         font-size: 2.6rem;
         left: 5.3em;
@@ -524,6 +650,16 @@ input[id="menuicon"]:checked + label + div {
         font-size: 1.3rem;
         left: 8.9em;
         top: 5.5em;
+    }
+
+    .font3-1{
+        left: 18.5em;
+        top: 4.5em;
+    }
+    
+    .font3-2{
+        left: 25.3em;
+        top: 4.5em;
     }
 }
 
@@ -563,6 +699,16 @@ input[id="menuicon"]:checked + label + div {
         left: 7.1em;
         top: 5.5em;
     }
+
+    .font3-1{
+        left: 16em;
+        top: 4.5em;
+    }
+    
+    .font3-2{
+        left: 23em;
+        top: 4.5em;
+    }
 }
 
 @media (max-width: 500px){
@@ -597,6 +743,16 @@ input[id="menuicon"]:checked + label + div {
         font-size: 1.1rem;
         left: 7em;
         top: 6em;
+    }
+
+    .font3-1{
+        left: 13em;
+        top: 4.5em;
+    }
+    
+    .font3-2{
+        left: 19em;
+        top: 4.5em;
     }
 }
 
