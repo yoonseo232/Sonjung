@@ -9,6 +9,7 @@
 div{
     display: flex;
     justify-content: center;
+    font-family: 'Noto Serif KR', serif;
 }
 
 html{
