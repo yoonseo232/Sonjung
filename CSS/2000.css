@@ -124,7 +124,7 @@
 /* 폰트 */
 
 .font1{
-    font-family: 나눔명조;
+     
     font-size: 4rem;
     left: 8.4em;
     top: 0.6em;
@@ -135,7 +135,7 @@
 }
 
 .font2-1{
-    font-family: 나눔명조;
+     
     font-size: 2.5rem;
     display: inline;
     margin-top: 0.08em;
@@ -144,7 +144,7 @@
 }
 
 .font2{
-    font-family: 나눔명조;
+     
     font-size: 2.5rem;
     display: inline;
     margin-top: 0.08em;
@@ -228,7 +228,7 @@ input[id="menuicon"]:checked + label + div {
 }
 
 .menuFont1{
-    font-family: 나눔명조;
+     
     font-size: 1.8rem;
     color: #fff;
     margin-top: 1em;
@@ -237,7 +237,7 @@ input[id="menuicon"]:checked + label + div {
 }
 
 .menuFont2{
-    font-family: 나눔명조;
+     
     font-size: 1.8rem;
     color: #fff;
     margin-top: 1em;
