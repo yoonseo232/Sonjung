@@ -76,7 +76,6 @@
     font-size: 2.5rem;
     display: inline;
     margin-top: 0.08em;
-    margin-left: 0.01em;
     cursor: pointer;
 }
 
@@ -179,6 +178,253 @@ input[id="menuicon"]:checked + label + div {
     margin-top: 1em;
     cursor: pointer;
     z-index: 20;
+}
+
+
+@media (max-height: 1080px){
+    @media (max-width: 1920px){
+        .logo{
+            width: 13em;
+            left: -47em;
+        }
+    
+        .rose1{
+            top: 47em;
+        }
+    
+        .rose2{
+            left: 94em;
+            top: 0em;
+        }
+    
+        .barSquare{
+            left: 33em;
+            top: 14em;
+        }
+    
+        .mainSquare{
+            width: 93em;
+            height: 37em;
+            left: 8em;
+            top: 2em;
+        }
+    
+        .font1{
+            left: 12em;
+            top: 1em;
+        }
+
+        .font2-1{
+            font-size: 2.5rem;
+            margin-top: 0.08em;
+        }
+        
+        .font2{
+            font-size: 2.5rem;
+            margin-top: 0.08em;
+            margin-left: 1.5em;
+        }
+
+        input[id="menuicon"] + label{
+            margin: 3em;
+            width: 3em;
+            height: 2.6em;
+            right: 54em;
+            top:calc(7% - 25px);
+        }
+    
+        .sidebar {
+            width: 18em;
+            height: 100%;
+            top:0;
+            right: -30em;
+        }
+    }
+}
+
+
+@media (max-width: 1540px){
+    .logo{
+        width: 11em;
+        left: -35em;
+        top: 1em;
+        position : relative;
+        z-index: 6;
+        cursor: pointer;
+    }
+    
+    #menuicon{
+        display: none;
+    }
+    
+    .rose1{
+        overflow: scroll;
+        width: 26em;
+        left: 0em;
+        top: 26em;
+        position: absolute;
+        position: fixed;
+        z-index: 4;
+        transition: all 0.4s;
+    }
+    
+    .rose2{
+        overflow: scroll;
+        width: 26em;
+        left: 70em;
+        top: 0em;
+        z-index: 4;
+        position: fixed;
+        transition: all 0.4s;
+    }
+    
+    .mainSquare{
+        border-width: 0.2em;
+        border-color: black;
+        border-style: solid;
+        left: 3em;
+        top: 0em;
+        width: 80.3em;
+        height: 28em;
+        margin-left: 4.5%;
+        margin-top: 16%;
+        position: absolute;
+        z-index: 1;
+        transition: all 0.4s;
+    }
+    
+    .barSquare{
+        border-width: 0.2em;
+        border-color: black;
+        border-style: solid;
+        top: 9em;
+        left: 21em;
+        width: 53em;
+        height: 4.2em;
+        position: absolute;
+        z-index: 2;
+        transition: all 0.4s;
+    }
+    
+    /* 폰트 */
+    
+    .font1{
+        font-size: 4rem;
+        left: 9em;
+        top: 0.6em;
+        display: inline;
+        position: absolute;
+        z-index: 2;
+        transition: all 0.4s;
+    }
+    
+    .font2-1{
+        font-size: 2.5rem;
+        display: inline;
+        margin-top: 0.08em;
+        cursor: pointer;
+    }
+    
+    .font2{
+        font-size: 2.5rem;
+        display: inline;
+        margin-top: 0.08em;
+        margin-left: 1.5em;
+        cursor: pointer;
+    }
+    
+    .font2-1:hover{
+        transform: translateY(-10px);
+    }
+    
+    .font2:hover{
+        transform: translateY(-10px);
+    }
+    
+    /* 햄버거 메뉴 */
+    
+    input[id="menuicon"] + label{
+        display:block; 
+        margin: 3em;
+        width: 3em;
+        height: 2.6em;
+        right: 0em;
+        top:calc(7% - 25px);
+        z-index: 10;
+        cursor:pointer;
+        position:fixed;
+    }
+    
+    input[id="menuicon"] + label span{
+        width: 3.4em;
+        height: 0.34em;
+        border-radius: 30px;
+        background: #000;
+        transition: all .35s;
+        display: block;
+        position: absolute;
+    }
+    
+    input[id="menuicon"] + label span:nth-child(1) {
+        top:0;
+    }
+    input[id="menuicon"] + label span:nth-child(2){
+        top:50%;
+        transform:translateY(-50%);
+    }
+    input[id="menuicon"] + label span:nth-child(3){
+        bottom:0;
+    }
+    input[id="menuicon"]:checked + label{
+        z-index:8;
+        right:250px;
+    }     
+    input[id="menuicon"]:checked + label span {
+        background:#000;
+    }
+    input[id="menuicon"]:checked + label span:nth-child(1){
+        top:50%;
+        transform:translateY(-50%) rotate(45deg);
+    }
+    input[id="menuicon"]:checked + label span:nth-child(2){
+        opacity:0;
+    }
+    input[id="menuicon"]:checked + label span:nth-child(3){
+        bottom:50%;
+        transform:translatey(50%) rotate(-45deg);
+    }
+    
+    .sidebar {
+        width: 18em;
+        height: 100%;
+        top:0;
+        right: -30em;
+        background: #222;
+        position: fixed;
+        z-index:10;
+    }
+    
+    input[id="menuicon"]:checked + label + div {
+        right: 0;
+    }
+    
+    .menuFont1{
+         
+        font-size: 1.8rem;
+        color: #fff;
+        margin-top: 1em;
+        cursor: pointer;
+        z-index: 20;
+    }
+    
+    .menuFont2{
+         
+        font-size: 1.8rem;
+        color: #fff;
+        margin-top: 1em;
+        cursor: pointer;
+        z-index: 20;
+    }
 }
 
 @media (max-width: 1400px){
