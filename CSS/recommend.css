@@ -47,19 +47,21 @@
     transition: all 0.4s;
 }
 
-.barSquare{
-    border-width: 0.2em;
-    border-color: black;
-    border-style: solid;
-    top: 9em;
-    left: 21em;
-    width: 53em;
-    height: 4.2em;
+#recImg1{
+    width: 20.5em;
+    height: 8em;
+    top: 2em;
+    left: 10em;
     position: absolute;
-    z-index: 2;
-    transition: all 0.4s;
 }
 
+#recImg2{
+    width: 20.5em;
+    height: 8em;
+    top: 16em;
+    left: 20em;
+    position: relative;
+}
 /* 폰트 */
 
 .font1{
@@ -292,20 +294,7 @@ input[id="menuicon"]:checked + label + div {
         z-index: 1;
         transition: all 0.4s;
     }
-    
-    .barSquare{
-        border-width: 0.2em;
-        border-color: black;
-        border-style: solid;
-        top: 9em;
-        left: 21em;
-        width: 53em;
-        height: 4.2em;
-        position: absolute;
-        z-index: 2;
-        transition: all 0.4s;
-    }
-    
+
     /* 폰트 */
     
     .font1{
@@ -461,10 +450,6 @@ input[id="menuicon"]:checked + label + div {
         left: 53em;
     }
 
-    .barSquare{
-        left: 12em;
-    }
-
     .mainSquare{
         width: 68em;
         left: 1.7em;
@@ -530,10 +515,6 @@ input[id="menuicon"]:checked + label + div {
         top: 0em;
     }
 
-    .barSquare{
-        width: 49em;
-        left: 10em;
-    }
 
     .mainSquare{
         width: 60em;
@@ -609,11 +590,6 @@ input[id="menuicon"]:checked + label + div {
         width: 22em;
         left: 41em;
         top: 0em;
-    }
-
-    .barSquare{
-        width: 43em;
-        left: 8.3em;
     }
 
     .mainSquare{
@@ -726,12 +702,6 @@ input[id="menuicon"]:checked + label + div {
         top: 0em;
     }
 
-    .barSquare{
-        width: 36em;
-        left: 6em;
-        top: 7.5em;
-    }
-
     .mainSquare{
         width: 44em;
         left: 0em;
@@ -823,13 +793,6 @@ input[id="menuicon"]:checked + label + div {
         width: 18em;
         left: 23em;
         top: 0em;
-    }
-
-    .barSquare{
-        width: 29em;
-        height: 3.8em;
-        left: 4em;
-        top: 7.5em;
     }
 
     .mainSquare{
@@ -925,13 +888,6 @@ input[id="menuicon"]:checked + label + div {
     
     .rose2{
         display: none;
-    }
-
-    .barSquare{
-        width: 23em;
-        height: 3.8em;
-        left: 1.6em;
-        top: 6.3em;
     }
 
     .mainSquare{

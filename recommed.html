@@ -12,8 +12,9 @@
     <title>순정 | 연도별 작품</title>
     <link rel="stylesheet" href="/CSS/reset.css">
     <link rel="stylesheet" href="/CSS/recommend.css">
+    <script src="/JS/recommend.js"></script>
 </head>
-<body>
+<body onload="randomImg()">
     <div class="container-fluid">
         <div class="row">
             <div class="font1">오늘의 추천</div>
@@ -34,7 +35,10 @@
                     <img src="images/logo.png" class="logo" a href="#" onclick="location.href='index.html'">
                     <img src="images/rose1.png" class="rose1">
                     <img src="images/rose2.png" class="rose2">
-                    <div class="mainSquare"></div>
+                    <div class="mainSquare">
+                        <img id="recImg1">
+                        <img id="recImg2">
+                    </div>
         </div>
     </div>
     
