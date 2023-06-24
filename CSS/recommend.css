@@ -62,6 +62,7 @@
     left: 20em;
     position: relative;
 }
+
 /* 폰트 */
 
 .font1{
@@ -295,6 +296,22 @@ input[id="menuicon"]:checked + label + div {
         transition: all 0.4s;
     }
 
+    #recImg1{
+        width: 20.5em;
+        height: 8em;
+        top: 2em;
+        left: 10em;
+        position: absolute;
+    }
+    
+    #recImg2{
+        width: 20.5em;
+        height: 8em;
+        top: 16em;
+        left: 20em;
+        position: relative;
+    }
+
     /* 폰트 */
     
     .font1{
@@ -522,6 +539,14 @@ input[id="menuicon"]:checked + label + div {
         top: 4em;
     }
 
+    #recImg1{
+        left: 5em;
+    }
+    
+    #recImg2{
+        left: 15em;
+    }
+
     .font1{
         left: 6.1em;
     }
@@ -708,6 +733,14 @@ input[id="menuicon"]:checked + label + div {
         top: 5em;
     }
 
+    #recImg1{
+        left: 10em;
+    }
+    
+    #recImg2{
+        left: 5em;
+    }
+
     .font1{
         font-size: 2.7rem;
         left: 5.9em;
@@ -801,6 +834,14 @@ input[id="menuicon"]:checked + label + div {
         top: 7em;
     }
 
+    #recImg1{
+        left: 6.5em;
+    }
+    
+    #recImg2{
+        left: 0em;
+    }
+
     
     .font1{
         font-size: 2.3rem;
@@ -849,6 +890,14 @@ input[id="menuicon"]:checked + label + div {
         top: 7em;
     }
 
+    #recImg1{
+        left: 3.5em;
+    }
+    
+    #recImg2{
+        left: 0em;
+    }
+
     .roundCheck {
         height: 2.6em; 
         width: 5em;
@@ -894,6 +943,18 @@ input[id="menuicon"]:checked + label + div {
         width: 23em;
         left: 0.4em;
         top: 7em;
+    }
+
+    #recImg1{
+        width: 18em;
+        height: 6.5em;
+        left: 2.5em;
+    }
+    
+    #recImg2{
+        width: 18em;
+        height: 6.5em;
+        left: 0.2em;
     }
 
     .roundCheck {
@@ -968,6 +1029,18 @@ input[id="menuicon"]:checked + label + div {
         width: 20.6em;
         left: 0.4em;
         top: 7em;
+    }
+
+    #recImg1{
+        width: 18em;
+        height: 6.5em;
+        left: 1.2em;
+    }
+    
+    #recImg2{
+        width: 18em;
+        height: 6.5em;
+        left: 0.2em;
     }
 
     .roundCheck {
