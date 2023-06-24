@@ -189,24 +189,23 @@ input[id="menuicon"]:checked + label + div {
         }
     
         .rose1{
-            top: 47em;
+            display: none;
         }
     
         .rose2{
-            left: 94em;
-            top: 0em;
+            display: none;
         }
     
         .barSquare{
             left: 33em;
-            top: 14em;
+            top: 13em;
         }
     
         .mainSquare{
             width: 93em;
             height: 37em;
             left: 8em;
-            top: 2em;
+            top: 0.8em;
         }
     
         .font1{
@@ -229,8 +228,14 @@ input[id="menuicon"]:checked + label + div {
             margin: 3em;
             width: 3em;
             height: 2.6em;
-            right: 54em;
+            right: 2em;
             top:calc(7% - 25px);
+        }
+
+        input[id="menuicon"] + label span{
+            width: 3.4em;
+            height: 0.34em;
+            border-radius: 30px;
         }
     
         .sidebar {
@@ -240,6 +245,7 @@ input[id="menuicon"]:checked + label + div {
             right: -30em;
         }
     }
+
 }
 
 
