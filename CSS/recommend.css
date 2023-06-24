@@ -185,19 +185,18 @@ input[id="menuicon"]:checked + label + div {
 
 
 @media (max-height: 1080px){
-    @media (max-width: 1920px){
+    @media (max-width: 1925px){
         .logo{
             width: 13em;
             left: -47em;
         }
     
         .rose1{
-            top: 47em;
+            display: none;
         }
     
         .rose2{
-            left: 94em;
-            top: 0em;
+            display: none;
         }
     
         .barSquare{
@@ -232,8 +231,14 @@ input[id="menuicon"]:checked + label + div {
             margin: 3em;
             width: 3em;
             height: 2.6em;
-            right: 54em;
+            right: 2em;
             top:calc(7% - 25px);
+        }
+
+        input[id="menuicon"] + label span{
+            width: 3.4em;
+            height: 0.34em;
+            border-radius: 30px;
         }
     
         .sidebar {

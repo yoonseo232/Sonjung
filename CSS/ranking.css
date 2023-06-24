@@ -226,6 +226,78 @@ input[id="menuicon"]:checked + label + div {
     z-index: 20;
 }
 
+@media (max-height: 1080px){
+    @media (max-width: 1925px){
+        .logo{
+            width: 13em;
+            left: -47em;
+        }
+    
+        .rose1{
+            display: none;
+        }
+    
+        .rose2{
+            display: none;
+        }
+    
+        .barSquare{
+            left: 33em;
+            top: 13em;
+        }
+    
+        .mainSquare{
+            width: 93em;
+            height: 140em;
+            left: 8em;
+            top: 0.8em;
+        }
+    
+        .font1{
+            left: 12.8em;
+            top: 1em;
+        }
+
+        .font2{
+            left: 28.8em;
+            top: 6em;
+        }
+
+            
+    .font3-1{
+        left: 39.6em;
+        top: 4.5em;
+    }
+
+    .font3-2{
+        left: 49em;
+        top: 4.5em;
+    }   
+
+        input[id="menuicon"] + label{
+            margin: 3em;
+            width: 3em;
+            height: 2.6em;
+            right: 2em;
+            top:calc(7% - 25px);
+        }
+
+        input[id="menuicon"] + label span{
+            width: 3.4em;
+            height: 0.34em;
+            border-radius: 30px;
+        }
+    
+        .sidebar {
+            width: 18em;
+            height: 100%;
+            top:0;
+            right: -30em;
+        }
+    }
+
+}
+
 @media (max-width: 1400px){
     .logo{
         left: -34em;
@@ -256,74 +328,6 @@ input[id="menuicon"]:checked + label + div {
     }
 
 }
-
-@media (max-height: 1080px){
-    @media (max-width: 1920px){
-        .logo{
-            width: 13em;
-            left: -47em;
-        }
-    
-        .rose1{
-            display: none;
-        }
-    
-        .rose2{
-            display: none;
-        }
-    
-        .barSquare{
-            left: 33em;
-            top: 13em;
-        }
-    
-        .mainSquare{
-            width: 93em;
-            height: 140em;
-            left: 8em;
-            top: 0.8em;
-        }
-    
-        .font1{
-            left: 12em;
-            top: 1em;
-        }
-
-        .font2-1{
-            font-size: 2.5rem;
-            margin-top: 0.08em;
-        }
-        
-        .font2{
-            font-size: 2.5rem;
-            margin-top: 0.08em;
-            margin-left: 1.5em;
-        }
-
-        input[id="menuicon"] + label{
-            margin: 3em;
-            width: 3em;
-            height: 2.6em;
-            right: 2em;
-            top:calc(7% - 25px);
-        }
-
-        input[id="menuicon"] + label span{
-            width: 3.4em;
-            height: 0.34em;
-            border-radius: 30px;
-        }
-    
-        .sidebar {
-            width: 18em;
-            height: 100%;
-            top:0;
-            right: -30em;
-        }
-    }
-
-}
-
 
 @media (max-width: 1540px){
     .logo{
@@ -375,24 +379,61 @@ input[id="menuicon"]:checked + label + div {
         transition: all 0.4s;
     }
     
-    .barSquare{
-        border-width: 0.2em;
-        border-color: black;
-        border-style: solid;
-        top: 9em;
-        left: 21em;
-        width: 53em;
-        height: 4.2em;
+    
+    /* 메인 사각형 안 */
+    .medal1, .medal2, .medal3, .medal4, .medal5, .medal6, .medal7, .medal8, .medal9, .medal10{
+        width: 30em;
+        height: 10.4em;
+        left: center;
         position: absolute;
-        z-index: 2;
-        transition: all 0.4s;
+        z-index: 8;
+    }
+    
+    .medal1{
+        margin-top: 6em;
+    }
+    
+    .medal2{
+        margin-top: 17em;
+    }
+    
+    .medal3{
+        margin-top: 28em;
+    }
+    
+    .medal4{
+        margin-top: 39em;
+    }
+    
+    .medal5{
+        margin-top: 50em;
+    }
+    
+    .medal6{
+        margin-top: 61em;
+    }
+    
+    .medal7{
+        margin-top: 72em;
+    }
+    
+    .medal8{
+        margin-top: 83em;
+    }
+    
+    .medal9{
+        margin-top: 94em;
+    }
+    
+    .medal10{
+        margin-top: 105em;
     }
     
     /* 폰트 */
     
     .font1{
         font-size: 4rem;
-        left: 9em;
+        left: 9.6em;
         top: 0.6em;
         display: inline;
         position: absolute;
@@ -400,28 +441,36 @@ input[id="menuicon"]:checked + label + div {
         transition: all 0.4s;
     }
     
-    .font2-1{
-        font-size: 2.5rem;
-        display: inline;
-        margin-top: 0.08em;
-        cursor: pointer;
-    }
-    
     .font2{
-        font-size: 2.5rem;
+        font-size: 1.7rem;
+        left: 21.3em;
+        top: 4.5em;
         display: inline;
-        margin-top: 0.08em;
-        margin-left: 1.5em;
-        cursor: pointer;
+        position: absolute;
+        z-index: 2;
+        transition: all 0.4s;
     }
     
-    .font2-1:hover{
-        transform: translateY(-10px);
+    .font3-1{
+        font-size: 1rem;
+        left: 39.6em;
+        top: 4.5em;
+        display: inline;
+        position: absolute;
+        z-index: 2;
+        transition: all 0.4s;
     }
     
-    .font2:hover{
-        transform: translateY(-10px);
+    .font3-2{
+        font-size: 1rem;
+        left: 49em;
+        top: 4.5em;
+        display: inline;
+        position: absolute;
+        z-index: 2;
+        transition: all 0.4s;
     }
+    
     
     /* 햄버거 메뉴 */
     

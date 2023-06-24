@@ -273,7 +273,7 @@ input[id="menuicon"]:checked + label + div {
 }
 
 @media (max-height: 1080px){
-    @media (max-width: 1920px){
+    @media (max-width: 1925px){
         .logo{
             width: 13em;
             left: -47em;
