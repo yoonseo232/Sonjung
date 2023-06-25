@@ -28,4 +28,4 @@ index.html 실행
 </br>
 
 ## 배포
-https://sunjeng.netlify.app
+https://sunjung.netlify.app
